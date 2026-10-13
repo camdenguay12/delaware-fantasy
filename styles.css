@@ -490,3 +490,17 @@ header #site-page-subtitle{margin-top:0!important}
  body.is-home-page header .masthead-title-line h1{font-size:8.45vw!important}
  body.is-home-page header .home-hero-logo{width:9vw!important;height:13vw!important}
 }
+
+
+/* Precise fit-to-width masthead: normal glyph spacing prevents collisions */
+header .masthead-title-line{box-sizing:border-box!important;width:100%!important;max-width:100%!important;padding:0!important;overflow:visible!important;gap:clamp(4px,1vw,16px)!important}
+header .masthead-title-line h1{letter-spacing:0!important;font-kerning:normal!important;font-variant-ligatures:normal!important;white-space:nowrap!important;overflow:visible!important;flex:0 0 auto!important;max-width:none!important;font-size:clamp(38px,8vw,135px)!important}
+header .masthead-content{width:100%!important}
+@media(max-width:750px){
+header{padding-left:0!important;padding-right:0!important}
+header .masthead-content{padding:0 3px!important;box-sizing:border-box!important}
+header .masthead-title-line{gap:3px!important}
+header .masthead-title-line h1{letter-spacing:0!important;font-size:11vw!important}
+body.is-home-page header .masthead-title-line h1{font-size:9.5vw!important}
+body.is-home-page header .home-hero-logo{width:9vw!important;height:12vw!important}
+}
