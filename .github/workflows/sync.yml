@@ -15,11 +15,11 @@ jobs:
           python-version: '3.12'
       - name: Fetch public ESPN league
         run: python fetch_espn.py
-      - name: Collect weekly starters and trades
+      - name: Fetch ESPN NFL headshots\n        run: python fetch_player_photos.py\n      - name: Collect weekly starters and trades
         run: python collect_extras.py
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/league.json data/history.json data/team_of_week.json data/trades.json data/player_weekly.json
+          git add data/league.json data/history.json data/team_of_week.json data/trades.json data/player_weekly.json data/player_photos.json
           git diff --cached --quiet || (git commit -m "Update ESPN league scores and projections" && git push)
