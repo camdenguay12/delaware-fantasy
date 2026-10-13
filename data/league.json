@@ -1,0 +1,164 @@
+{
+  "week": 6,
+  "updatedAt": "2026-10-13T19:04:07.495721+00:00",
+  "teams": [
+    {
+      "id": 1,
+      "name": "Last Chance U",
+      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/b7793780-a303-11f1-8623-4f919cfbc4d9",
+      "wins": 4,
+      "losses": 1,
+      "ties": 0,
+      "pointsFor": 690.52
+    },
+    {
+      "id": 2,
+      "name": "Rick's Rowdy Team",
+      "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/19.svg",
+      "wins": 0,
+      "losses": 5,
+      "ties": 0,
+      "pointsFor": 537.0
+    },
+    {
+      "id": 4,
+      "name": "Hugh's Heated Team",
+      "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/12.svg",
+      "wins": 3,
+      "losses": 2,
+      "ties": 0,
+      "pointsFor": 801.2
+    },
+    {
+      "id": 5,
+      "name": "Luke's Little Beauties",
+      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/543cd340-860b-11f0-89de-d1ac062a5dc6",
+      "wins": 4,
+      "losses": 1,
+      "ties": 0,
+      "pointsFor": 679.12
+    },
+    {
+      "id": 6,
+      "name": "Brad Jackson is White",
+      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/740de4c0-a171-11f1-8623-4f919cfbc4d9",
+      "wins": 2,
+      "losses": 3,
+      "ties": 0,
+      "pointsFor": 596.6800000000001
+    },
+    {
+      "id": 7,
+      "name": "Brady's Best Team",
+      "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/11.svg",
+      "wins": 1,
+      "losses": 4,
+      "ties": 0,
+      "pointsFor": 526.6800000000001
+    },
+    {
+      "id": 10,
+      "name": "Dream Dwerkers",
+      "logo": "https://g.espncdn.com/lm-static/logo-packs/ffl/BlitznBears-MartinLaksman/bears-13.svg",
+      "wins": 3,
+      "losses": 2,
+      "ties": 0,
+      "pointsFor": 695.5799999999999
+    },
+    {
+      "id": 11,
+      "name": "Derrick Henry",
+      "logo": "https://mystique-api.fantasy.espn.com/apis/v1/domains/lm/images/eb3238a0-bab5-11f1-8f2e-01e221379ec0",
+      "wins": 3,
+      "losses": 2,
+      "ties": 0,
+      "pointsFor": 704.1400000000001
+    },
+    {
+      "id": 12,
+      "name": "Quinn's Tremendous Team",
+      "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/20.svg",
+      "wins": 2,
+      "losses": 3,
+      "ties": 0,
+      "pointsFor": 589.8000000000001
+    },
+    {
+      "id": 13,
+      "name": "Johny's Finest Team",
+      "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/1.svg",
+      "wins": 2,
+      "losses": 3,
+      "ties": 0,
+      "pointsFor": 555.4399999999999
+    },
+    {
+      "id": 14,
+      "name": "Kyle's Top-Notch Team",
+      "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/16.svg",
+      "wins": 3,
+      "losses": 2,
+      "ties": 0,
+      "pointsFor": 627.1199999999999
+    },
+    {
+      "id": 15,
+      "name": "Camdens Football Friends",
+      "logo": "https://g.espncdn.com/lm-static/ffl/images/default_logos/4.svg",
+      "wins": 3,
+      "losses": 2,
+      "ties": 0,
+      "pointsFor": 630.06
+    }
+  ],
+  "matchups": [
+    {
+      "homeId": 7,
+      "awayId": 10,
+      "homeScore": 0.0,
+      "awayScore": 0.0,
+      "homeProjected": 0.0,
+      "awayProjected": 0.0
+    },
+    {
+      "homeId": 5,
+      "awayId": 4,
+      "homeScore": 0.0,
+      "awayScore": 0.0,
+      "homeProjected": 0.0,
+      "awayProjected": 0.0
+    },
+    {
+      "homeId": 13,
+      "awayId": 1,
+      "homeScore": 0.0,
+      "awayScore": 0.0,
+      "homeProjected": 0.0,
+      "awayProjected": 0.0
+    },
+    {
+      "homeId": 14,
+      "awayId": 11,
+      "homeScore": 0.0,
+      "awayScore": 0.0,
+      "homeProjected": 0.0,
+      "awayProjected": 0.0
+    },
+    {
+      "homeId": 15,
+      "awayId": 12,
+      "homeScore": 0.0,
+      "awayScore": 0.0,
+      "homeProjected": 0.0,
+      "awayProjected": 0.0
+    },
+    {
+      "homeId": 6,
+      "awayId": 2,
+      "homeScore": 0.0,
+      "awayScore": 0.0,
+      "homeProjected": 0.0,
+      "awayProjected": 0.0
+    }
+  ]
+}

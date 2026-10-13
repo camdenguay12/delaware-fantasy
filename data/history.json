@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "week": 6,
+    "at": "2026-10-13T19:04:07.495721+00:00",
+    "homeId": 7,
+    "awayId": 10,
+    "homeProjected": 0.0,
+    "awayProjected": 0.0
+  },
+  {
+    "week": 6,
+    "at": "2026-10-13T19:04:07.495721+00:00",
+    "homeId": 5,
+    "awayId": 4,
+    "homeProjected": 0.0,
+    "awayProjected": 0.0
+  },
+  {
+    "week": 6,
+    "at": "2026-10-13T19:04:07.495721+00:00",
+    "homeId": 13,
+    "awayId": 1,
+    "homeProjected": 0.0,
+    "awayProjected": 0.0
+  },
+  {
+    "week": 6,
+    "at": "2026-10-13T19:04:07.495721+00:00",
+    "homeId": 14,
+    "awayId": 11,
+    "homeProjected": 0.0,
+    "awayProjected": 0.0
+  },
+  {
+    "week": 6,
+    "at": "2026-10-13T19:04:07.495721+00:00",
+    "homeId": 15,
+    "awayId": 12,
+    "homeProjected": 0.0,
+    "awayProjected": 0.0
+  },
+  {
+    "week": 6,
+    "at": "2026-10-13T19:04:07.495721+00:00",
+    "homeId": 6,
+    "awayId": 2,
+    "homeProjected": 0.0,
+    "awayProjected": 0.0
+  }
+]
