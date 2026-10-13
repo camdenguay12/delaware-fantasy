@@ -1,0 +1,402 @@
+[
+  {
+    "week": 1,
+    "slot": "QB",
+    "player": "Caleb Williams",
+    "points": 37.26,
+    "teamId": 4,
+    "teamName": "Hugh’s Heated Team"
+  },
+  {
+    "week": 1,
+    "slot": "RB",
+    "player": "Derrick Henry",
+    "points": 35.3,
+    "teamId": 11,
+    "teamName": "Derrick Henry"
+  },
+  {
+    "week": 1,
+    "slot": "RB",
+    "player": "Kenneth Walker III",
+    "points": 34.1,
+    "teamId": 1,
+    "teamName": "Last Chance U"
+  },
+  {
+    "week": 1,
+    "slot": "WR",
+    "player": "Christian Watson",
+    "points": 32.7,
+    "teamId": 4,
+    "teamName": "Hugh’s Heated Team"
+  },
+  {
+    "week": 1,
+    "slot": "WR",
+    "player": "Justin Jefferson",
+    "points": 31.2,
+    "teamId": 15,
+    "teamName": "Camden’s Football Friends"
+  },
+  {
+    "week": 1,
+    "slot": "TE",
+    "player": "Trey McBride",
+    "points": 24.5,
+    "teamId": 5,
+    "teamName": "Luke’s Little Beauties"
+  },
+  {
+    "week": 1,
+    "slot": "FLEX",
+    "player": "Jahmyr Gibbs",
+    "points": 33.6,
+    "teamId": 4,
+    "teamName": "Hugh’s Heated Team"
+  },
+  {
+    "week": 1,
+    "slot": "FLEX",
+    "player": "Ashton Jeanty",
+    "points": 32.7,
+    "teamId": 5,
+    "teamName": "Luke’s Little Beauties"
+  },
+  {
+    "week": 1,
+    "slot": "D/ST",
+    "player": "Steelers",
+    "points": 19,
+    "teamId": 10,
+    "teamName": "Dream Dwerkers"
+  },
+  {
+    "week": 1,
+    "slot": "K",
+    "player": "Trey Smack",
+    "points": 13,
+    "teamId": 1,
+    "teamName": "Last Chance U"
+  },
+  {
+    "week": 2,
+    "slot": "QB",
+    "player": "Josh Allen",
+    "points": 40.82,
+    "teamId": 15,
+    "teamName": "Camden’s Football Friends"
+  },
+  {
+    "week": 2,
+    "slot": "RB",
+    "player": "Jonathan Taylor",
+    "points": 29.2,
+    "teamId": 12,
+    "teamName": "Quinn’s Tremendous Team"
+  },
+  {
+    "week": 2,
+    "slot": "RB",
+    "player": "Kenneth Walker III",
+    "points": 23.8,
+    "teamId": 1,
+    "teamName": "Last Chance U"
+  },
+  {
+    "week": 2,
+    "slot": "WR",
+    "player": "Jaxon Smith-Njigba",
+    "points": 42.5,
+    "teamId": 10,
+    "teamName": "Dream Dwerkers"
+  },
+  {
+    "week": 2,
+    "slot": "WR",
+    "player": "Davante Adams",
+    "points": 39.5,
+    "teamId": 5,
+    "teamName": "Luke’s Little Beauties"
+  },
+  {
+    "week": 2,
+    "slot": "TE",
+    "player": "Travis Kelce",
+    "points": 25.1,
+    "teamId": 7,
+    "teamName": "Brady’s Best Team"
+  },
+  {
+    "week": 2,
+    "slot": "FLEX",
+    "player": "CeeDee Lamb",
+    "points": 35.3,
+    "teamId": 11,
+    "teamName": "Derrick Henry"
+  },
+  {
+    "week": 2,
+    "slot": "FLEX",
+    "player": "Amon-Ra St. Brown",
+    "points": 35.2,
+    "teamId": 13,
+    "teamName": "Johny’s Finest Team"
+  },
+  {
+    "week": 2,
+    "slot": "D/ST",
+    "player": "Rams",
+    "points": 11,
+    "teamId": 2,
+    "teamName": "Rick’s Rowdy Team"
+  },
+  {
+    "week": 2,
+    "slot": "K",
+    "player": "Brandon Aubrey",
+    "points": 17,
+    "teamId": 7,
+    "teamName": "Brady’s Best Team"
+  },
+  {
+    "week": 3,
+    "slot": "QB",
+    "player": "Brock Purdy",
+    "points": 31.28,
+    "teamId": 14,
+    "teamName": "Kyle’s Top-Notch Team"
+  },
+  {
+    "week": 3,
+    "slot": "RB",
+    "player": "Jahmyr Gibbs",
+    "points": 41.4,
+    "teamId": 4,
+    "teamName": "Hugh’s Heated Team"
+  },
+  {
+    "week": 3,
+    "slot": "RB",
+    "player": "Bijan Robinson",
+    "points": 35.3,
+    "teamId": 1,
+    "teamName": "Last Chance U"
+  },
+  {
+    "week": 3,
+    "slot": "WR",
+    "player": "Jaxon Smith-Njigba",
+    "points": 35.36,
+    "teamId": 10,
+    "teamName": "Dream Dwerkers"
+  },
+  {
+    "week": 3,
+    "slot": "WR",
+    "player": "Drake London",
+    "points": 28.4,
+    "teamId": 4,
+    "teamName": "Hugh’s Heated Team"
+  },
+  {
+    "week": 3,
+    "slot": "TE",
+    "player": "Brock Bowers",
+    "points": 27.6,
+    "teamId": 4,
+    "teamName": "Hugh’s Heated Team"
+  },
+  {
+    "week": 3,
+    "slot": "FLEX",
+    "player": "Garrett Wilson",
+    "points": 26.7,
+    "teamId": 1,
+    "teamName": "Last Chance U"
+  },
+  {
+    "week": 3,
+    "slot": "FLEX",
+    "player": "George Kittle",
+    "points": 26.2,
+    "teamId": 6,
+    "teamName": "Brad Jackson is White"
+  },
+  {
+    "week": 3,
+    "slot": "D/ST",
+    "player": "Vikings",
+    "points": 19,
+    "teamId": 5,
+    "teamName": "Luke’s Little Beauties"
+  },
+  {
+    "week": 3,
+    "slot": "K",
+    "player": "Will Reichard",
+    "points": 16,
+    "teamId": 4,
+    "teamName": "Hugh’s Heated Team"
+  },
+  {
+    "week": 4,
+    "slot": "QB",
+    "player": "Joe Burrow",
+    "points": 23.72,
+    "teamId": 11,
+    "teamName": "Derrick Henry"
+  },
+  {
+    "week": 4,
+    "slot": "RB",
+    "player": "Kyren Williams",
+    "points": 36.7,
+    "teamId": 10,
+    "teamName": "Dream Dwerkers"
+  },
+  {
+    "week": 4,
+    "slot": "RB",
+    "player": "Javonte Williams",
+    "points": 31.3,
+    "teamId": 2,
+    "teamName": "Rick’s Rowdy Team"
+  },
+  {
+    "week": 4,
+    "slot": "WR",
+    "player": "Tetairoa McMillan",
+    "points": 45.2,
+    "teamId": 13,
+    "teamName": "Johny’s Finest Team"
+  },
+  {
+    "week": 4,
+    "slot": "WR",
+    "player": "CeeDee Lamb",
+    "points": 41.3,
+    "teamId": 11,
+    "teamName": "Derrick Henry"
+  },
+  {
+    "week": 4,
+    "slot": "TE",
+    "player": "Sam LaPorta",
+    "points": 22.4,
+    "teamId": 10,
+    "teamName": "Dream Dwerkers"
+  },
+  {
+    "week": 4,
+    "slot": "FLEX",
+    "player": "Kenneth Walker III",
+    "points": 30.9,
+    "teamId": 1,
+    "teamName": "Last Chance U"
+  },
+  {
+    "week": 4,
+    "slot": "FLEX",
+    "player": "Nico Collins",
+    "points": 30.8,
+    "teamId": 10,
+    "teamName": "Dream Dwerkers"
+  },
+  {
+    "week": 4,
+    "slot": "D/ST",
+    "player": "Giants",
+    "points": 16,
+    "teamId": 4,
+    "teamName": "Hugh’s Heated Team"
+  },
+  {
+    "week": 4,
+    "slot": "K",
+    "player": "Will Reichard",
+    "points": 19,
+    "teamId": 4,
+    "teamName": "Hugh’s Heated Team"
+  },
+  {
+    "week": 5,
+    "slot": "QB",
+    "player": "Drake Maye",
+    "points": 39.46,
+    "teamId": 1,
+    "teamName": "Last Chance U"
+  },
+  {
+    "week": 5,
+    "slot": "RB",
+    "player": "Jahmyr Gibbs",
+    "points": 37.7,
+    "teamId": 4,
+    "teamName": "Hugh’s Heated Team"
+  },
+  {
+    "week": 5,
+    "slot": "RB",
+    "player": "Jaylen Warren",
+    "points": 36.8,
+    "teamId": 4,
+    "teamName": "Hugh’s Heated Team"
+  },
+  {
+    "week": 5,
+    "slot": "WR",
+    "player": "Puka Nacua",
+    "points": 37.7,
+    "teamId": 7,
+    "teamName": "Brady’s Best Team"
+  },
+  {
+    "week": 5,
+    "slot": "WR",
+    "player": "Christian Watson",
+    "points": 32.3,
+    "teamId": 4,
+    "teamName": "Hugh’s Heated Team"
+  },
+  {
+    "week": 5,
+    "slot": "TE",
+    "player": "Isaiah Likely",
+    "points": 32.4,
+    "teamId": 7,
+    "teamName": "Brady’s Best Team"
+  },
+  {
+    "week": 5,
+    "slot": "FLEX",
+    "player": "Bucky Irving",
+    "points": 31.5,
+    "teamId": 6,
+    "teamName": "Brad Jackson is White"
+  },
+  {
+    "week": 5,
+    "slot": "FLEX",
+    "player": "Parker Washington",
+    "points": 30.4,
+    "teamId": 1,
+    "teamName": "Last Chance U"
+  },
+  {
+    "week": 5,
+    "slot": "D/ST",
+    "player": "Jets",
+    "points": 18,
+    "teamId": 1,
+    "teamName": "Last Chance U"
+  },
+  {
+    "week": 5,
+    "slot": "K",
+    "player": "Jason Myers",
+    "points": 23,
+    "teamId": 11,
+    "teamName": "Derrick Henry"
+  }
+]
