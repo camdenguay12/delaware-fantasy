@@ -1,7 +1,7 @@
 import json,datetime,urllib.request,pathlib
 LEAGUE_ID=562354279
 ROOT=pathlib.Path(__file__).resolve().parent
-URL=f'https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2026/segments/0/leagues/{LEAGUE_ID}?view=mTeam&view=mMatchup&view=mSettings'
+URL=f'https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2026/segments/0/leagues/{LEAGUE_ID}?view=mTeam&view=mMatchupScore&view=mScoreboard&view=mLiveScoring&view=mSettings'
 def get():
  req=urllib.request.Request(URL,headers={'User-Agent':'Mozilla/5.0','Accept':'application/json'})
  with urllib.request.urlopen(req,timeout=30) as response:return json.load(response)
@@ -20,7 +20,7 @@ def main():
   def total(v):
    return v.get('totalPoints',0)
   def proj(v):
-   return v.get('totalPointsLive',None) if v.get('totalPointsLive',None) is not None else v.get('totalPoints',0)
+   return v.get('totalProjectedPointsLive') if v.get('totalProjectedPointsLive') is not None else v.get('totalProjectedPoints')
   games.append({'homeId':a.get('teamId'),'awayId':b.get('teamId'),'homeScore':total(a),'awayScore':total(b),'homeProjected':proj(a),'awayProjected':proj(b)})
  if not teams:raise ValueError('ESPN response contained no teams; refusing to overwrite last valid data')
  now=datetime.datetime.now(datetime.timezone.utc).isoformat()
