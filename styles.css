@@ -179,3 +179,64 @@ select:focus-visible,button:focus-visible{outline:3px solid #ef914b;outline-offs
 .editorial-rank-card,.editorial-star,.editorial-trade,.editorial-stat-row>div,.match-card,.detail{background:linear-gradient(140deg,#f8edf4,#fcead9)!important}
 @media(max-width:980px){.layout{grid-template-columns:250px minmax(0,1fr);gap:14px;padding:16px}.matchup-trigger{gap:7px;padding:13px 9px 8px;grid-template-columns:45px minmax(0,1fr) 24px minmax(0,1fr) 22px}.matchup-side img{width:34px;height:34px}.matchup-subline{padding-left:60px}.expanded-team img{width:40px;height:40px}}
 @media(max-width:750px){header{min-height:0;padding:13px 4%}header .logo{width:95px;max-width:23vw}.layout{grid-template-columns:1fr}aside{position:relative;top:auto;max-height:none;overflow:visible}.game-hero{padding:22px}.matchup-team-name{font-size:17px}.matchup-score{font-size:19px}.expanded-versus{grid-template-columns:1fr}.versus-mark{display:none}.matchup-number{font-size:12px}.matchup-trigger{grid-template-columns:38px minmax(0,1fr) 20px minmax(0,1fr) 17px}.matchup-side{gap:4px}.matchup-side img{width:28px;height:28px}.matchup-subline{font-size:9px;padding-left:12px}.expanded-content{padding:12px}}
+
+
+/* Home Page and editorial refinement */
+.layout.home-layout{display:block;max-width:1460px;margin:auto;padding:24px 4%}
+.layout.home-layout main{width:100%}
+.home-standings,.news-section{background:linear-gradient(130deg,#f9e8d8,#f0dce9);border:2px solid #d9b6cf;border-radius:16px;padding:22px;margin:20px 0;box-shadow:0 10px 22px #3d294015}
+.section-heading{display:flex;align-items:end;justify-content:space-between;gap:12px;border-bottom:3px solid #d2b1c9;padding-bottom:14px;margin-bottom:10px}
+.section-heading span{font-size:11px;letter-spacing:.16em;color:#965d8e;font-weight:900}
+.section-heading h2{font:900 clamp(35px,4vw,55px) 'Barlow Condensed',Impact,sans-serif;margin:3px 0 0}
+.standings-week{font:900 16px 'Barlow Condensed',Impact,sans-serif;white-space:nowrap}
+.home-standings-head,.home-standings .standing{display:grid;grid-template-columns:70px minmax(0,1fr) 95px 110px 65px;align-items:center;gap:16px}
+.home-standings-head{padding:13px 19px;color:#fff;background:#493054;border-radius:8px;font-size:11px;font-weight:900;letter-spacing:.09em}
+.home-standings .standing{min-height:75px;padding:12px 19px;border-bottom:1px solid #ddc3d2}
+.home-standings .standing:nth-child(odd){background:#f9ecf1a0}
+.home-standings .standing .team{display:flex;align-items:center;gap:15px;min-width:0;background:transparent;padding:0}
+.home-standings .standing .team strong{font-size:17px;color:#35243e;line-height:1.2}
+.home-standings .standing .team img{width:52px;height:52px;border-radius:50%;object-fit:contain;background:#fff5f0;padding:3px;border:1px solid #dfc1da}
+.home-standings .standing-position{font:900 32px 'Barlow Condensed',Impact,sans-serif;color:#e97832}
+.home-standings .standing-record,.home-standings .standing-pf{font:900 22px 'Barlow Condensed',Impact,sans-serif;color:#422e4d}
+.home-standings .standings-change{font-size:18px;text-align:center}
+.home-standings .standings-change.up{color:#168653}
+.home-standings .standings-change.down{color:#c53647}
+.home-standings .standings-change.neutral{color:#8a768f}
+.home-standings .standings-footnote{color:#7c6784;font-size:11px}
+.league-news-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px;padding-top:9px}
+.league-news-card{background:linear-gradient(145deg,#fff2e3,#f2dfed);border:1px solid #dfbfd4;border-top:5px solid #ec7735;border-radius:12px;padding:20px}
+.league-news-card.lead-story{grid-column:span 2;background:linear-gradient(110deg,#f9dfca,#e8d2eb)}
+.news-card-tag{color:#a15d85;font-size:11px;letter-spacing:.13em;font-weight:900}
+.news-card-main{display:flex;align-items:center;gap:16px;margin-top:10px}
+.news-card-main img{width:65px;height:65px;object-fit:contain;border-radius:50%;background:#fff9f0;padding:4px}
+.news-card-main h3{font:900 clamp(24px,2.7vw,37px) 'Barlow Condensed',Impact,sans-serif;line-height:1.1;margin:0}
+.news-card-main p{font-size:13px;line-height:1.6;color:#735e79;margin:9px 0 0}
+.news-live{white-space:nowrap}
+.score-bars{padding:16px 18px;background:linear-gradient(125deg,#f7e5dc,#e8d8ef);border-radius:12px}
+.score-bar-line{margin:18px 0}
+.score-bar-name{display:flex;align-items:center;gap:12px;font-size:14px;margin-bottom:8px}
+.score-bar-name img{width:35px;height:35px;object-fit:contain}
+.score-bar-name strong{flex:1}
+.score-bar-name span{font:900 23px 'Barlow Condensed',Impact,sans-serif}
+.score-bar-track{height:24px;border-radius:5px;background:#c9b8cd;overflow:hidden}
+.score-bar-fill{height:100%;border-radius:5px;transition:width .4s}
+.score-bar-fill.orange{background:linear-gradient(90deg,#c75220,#ffb16c)}
+.score-bar-fill.purple{background:linear-gradient(90deg,#653b8c,#bd91d6)}
+.editorial-rank-content{display:flex!important;flex-direction:column!important;gap:20px!important}
+.editorial-trend{border-left:0!important;border-top:2px solid #e5cde0;padding:15px 0 0!important;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.editorial-trend>strong{font-size:13px}
+.editorial-trend .ranking-spark{width:min(100%,440px);max-width:440px;margin:9px auto}
+.editorial-slot{background:linear-gradient(135deg,#ead3ee,#fce0c4)!important;display:grid;place-items:center;width:88px;min-width:88px;height:91px;padding:3px!important;border:2px solid #ba96cc}
+.editorial-player-photo{width:78px;height:78px;object-fit:contain;border-radius:9px}
+.photo-fallback{display:grid;place-items:center;background:#b58bca;color:#fff;font-size:17px;font-weight:900}
+.editorial-position{display:inline-block;padding:3px 9px;border-radius:5px;background:#7b5195;color:#fff;font:900 12px 'Barlow Condensed',Impact,sans-serif;letter-spacing:.08em;margin-bottom:5px}
+.editorial-grade{font:900 54px 'Barlow Condensed',Impact,sans-serif!important;line-height:1;padding:4px 10px;border-radius:9px;background:#fff8e9}
+.editorial-grade.gradeaplus,.editorial-grade.gradea{color:#167d40}
+.editorial-grade.gradeaminus,.editorial-grade.gradebplus{color:#41964a}
+.editorial-grade.gradeb{color:#8b9b35}
+.editorial-grade.gradebminus,.editorial-grade.gradecplus{color:#b3a021}
+.editorial-grade.gradec{color:#c6a02a}
+.editorial-grade.gradecminus,.editorial-grade.gradedplus{color:#da7f2b}
+.editorial-grade.graded{color:#df5b32}
+.editorial-grade.grademinus,.editorial-grade.gradedminus,.editorial-grade.gradef{color:#c72f39}
+@media(max-width:760px){.home-standings-head,.home-standings .standing{grid-template-columns:38px minmax(0,1fr) 50px 60px 40px;gap:6px;padding:10px 5px}.home-standings .standing .team img{width:32px;height:32px}.home-standings .standing .team strong{font-size:11px}.home-standings .standing .team{gap:5px}.home-standings .standing-position{font-size:23px}.home-standings .standing-record,.home-standings .standing-pf{font-size:14px}.home-standings .standings-change{font-size:11px}.home-standings,.news-section{padding:12px}.league-news-grid{grid-template-columns:1fr}.league-news-card.lead-story{grid-column:auto}.editorial-slot{width:67px;min-width:67px;height:75px}.editorial-player-photo{width:62px;height:64px}.editorial-grade{font-size:40px!important}}
