@@ -2,7 +2,7 @@
 import json, datetime, urllib.request, pathlib, collections
 ROOT=pathlib.Path(__file__).resolve().parent
 BASE="https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2026/segments/0/leagues/562354279"
-POSITIONS={0:"QB",2:"RB",4:"WR",6:"TE",16:"D/ST",17:"K"}
+POSITIONS={1:"QB",2:"RB",3:"WR",4:"TE",5:"K",16:"D/ST"}
 SLOTS={0:"QB",2:"RB",4:"WR",6:"TE",16:"D/ST",17:"K",23:"FLEX",24:"FLEX"}
 def request(url):
     req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0","Accept":"application/json"})
@@ -58,7 +58,7 @@ def main():
     best={}
     for week in range(1,last+1):
         try:
-            raw=request(BASE+f"?view=mBoxscore&scoringPeriodId={week}")
+            raw=request(BASE+f"?view=mBoxscore&view=mMatchupScore&scoringPeriodId={week}&matchupPeriodId={week}")
             leaders,scores=starters(raw,week)
             if scores:weekly[str(week)]=scores
             if week==last:best=leaders
