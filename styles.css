@@ -385,3 +385,25 @@ header #site-page-subtitle{font-size:10px!important}
 .home-standings .standing .team strong{font-size:clamp(15px,4vw,22px)!important}
 .home-standings-head,.home-standings .standing{grid-template-columns:28px minmax(0,1fr) 40px 55px 28px!important;gap:4px!important}
 }
+
+
+/* Purple interactive states and team detail overlay */
+.nav-tabs button:hover,.nav-tabs button:focus-visible,.nav-tabs button:active{background:#79528f!important;color:white!important}
+.home-standings .standing:hover,.home-standings .standing:focus-visible,.home-standings .standing:active,.matchup-trigger:hover,.matchup-trigger:focus-visible,.matchup-trigger:active,.editorial-rank-card:hover,.editorial-rank-card:active,.editorial-star:hover,.editorial-star:active,.editorial-trade-side:hover,.editorial-trade-side:active,.league-news-card:hover,.league-news-card:active,.match-card:hover,.match-card:active{background:#654477!important;color:#fff!important}
+.home-standings .standing:hover *, .home-standings .standing:focus-visible *, .home-standings .standing:active *, .matchup-trigger:hover *, .matchup-trigger:focus-visible *, .matchup-trigger:active *, .editorial-rank-card:hover *, .editorial-rank-card:active *, .editorial-star:hover *, .editorial-star:active *, .editorial-trade-side:hover *, .editorial-trade-side:active *, .league-news-card:hover *, .league-news-card:active *, .match-card:hover *, .match-card:active *{color:#fff!important}
+.home-standings .standing:hover .team,.home-standings .standing:focus-visible .team,.home-standings .standing:active .team{background:transparent!important}
+.team-info-dialog{border:3px solid #76518b;border-radius:20px;padding:32px;width:min(92vw,650px);max-height:85vh;overflow:auto;background:#fff8ef;color:#30213a;box-shadow:0 25px 80px #20112c77}
+.team-info-dialog::backdrop{background:#1d1028a8}
+.team-info-close{position:absolute;right:12px;top:9px;background:#654477;color:#fff;border:0;border-radius:50%;width:38px;height:38px;font-size:28px;cursor:pointer}
+.team-info-heading{display:flex;align-items:center;gap:20px;padding-right:30px}
+.team-info-heading img{width:92px;height:92px;object-fit:contain}
+.team-info-heading h2{font-size:clamp(30px,5vw,50px);line-height:1;margin:4px 0}
+.team-info-heading small{color:#88599a;font-weight:900}
+.team-info-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:24px 0}
+.team-info-stats>div{background:#f2e0ee;padding:14px;border-radius:12px}
+.team-info-stats small{display:block;font-size:10px;font-weight:900}
+.team-info-stats strong{display:block;font:900 30px 'Barlow Condensed',Impact,sans-serif}
+.team-info-game{display:flex;justify-content:space-between;gap:10px;border-bottom:1px solid #d8bdd8;padding:11px 0}
+.team-info-game span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.team-info-game strong{white-space:nowrap}
+@media(max-width:750px){.team-info-dialog{padding:22px}.team-info-heading img{width:64px;height:64px}.team-info-stats strong{font-size:23px}}
