@@ -2,7 +2,7 @@ import json, datetime, urllib.request, pathlib
 LEAGUE_ID=562354279
 ROOT=pathlib.Path(__file__).resolve().parent
 URL=f'https://lm-api-reads.fantasy.espn.com/apis/v3/games/ffl/seasons/2026/segments/0/leagues/{LEAGUE_ID}'
-VIEWS='?view=mTeam&view=mMatchupScore&view=mScoreboard&view=mLiveScoring&view=mSettings'
+VIEWS='?view=mTeam&view=mRoster&view=mMatchupScore&view=mScoreboard&view=mLiveScoring&view=mSettings'
 def get(url):
  req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0','Accept':'application/json'})
  with urllib.request.urlopen(req,timeout=35) as response:return json.load(response)
@@ -37,6 +37,14 @@ def main():
   record=t.get('record',{}).get('overall',{})
   teams.append({'id':t['id'],'name':t.get('name') or ((t.get('location','')+' '+t.get('nickname','')).strip()),'logo':t.get('logo',''),'wins':record.get('wins',0),'losses':record.get('losses',0),'ties':record.get('ties',0),'pointsFor':record.get('pointsFor',0)})
  if not teams:raise ValueError('ESPN returned no teams')
+ photos={}
+ for t in raw.get('teams',[]):
+  for item in t.get('roster',{}).get('entries',[]):
+   player=item.get('playerPoolEntry',{}).get('player',{})
+   name=player.get('fullName')
+   pid=player.get('id')
+   if name and pid and int(pid)>0:
+    photos[name]={'id':pid,'headshot':f'https://a.espncdn.com/i/headshots/nfl/players/full/{pid}.png'}
  schedule=raw.get('schedule',[])
  # The league-wide matchup view may omit schedule periods. Supplement it with the
  # period-specific scoreboard when necessary, while keeping any real scores.
@@ -61,7 +69,7 @@ def main():
  now=datetime.datetime.now(datetime.timezone.utc).isoformat()
  games=[{k:v for k,v in g.items() if k!='week'} for g in all_games if g['week']==current]
  data=ROOT/'data';data.mkdir(exist_ok=True)
- (data/'league.json').write_text(json.dumps({'week':current,'updatedAt':now,'teams':teams,'matchups':games,'schedule':all_games},indent=2)+'\n')
+ (data/'league.json').write_text(json.dumps({'week':current,'updatedAt':now,'teams':teams,'matchups':games,'schedule':all_games,'playerPhotos':photos},indent=2)+'\n')
  hp=data/'history.json'
  try:history=json.loads(hp.read_text())
  except (OSError,json.JSONDecodeError):history=[]
