@@ -504,3 +504,19 @@ header .masthead-title-line h1{letter-spacing:0!important;font-size:11vw!importa
 body.is-home-page header .masthead-title-line h1{font-size:9.5vw!important}
 body.is-home-page header .home-hero-logo{width:9vw!important;height:12vw!important}
 }
+
+
+/* Power ranking accordion: preserve original cream/purple typography on hover */
+.editorial-rank-card:hover,.editorial-rank-card:active,.editorial-rank-card:focus-within{background:linear-gradient(140deg,#f8edf4,#fcead9)!important;color:#35243e!important}
+.editorial-rank-card:hover *,.editorial-rank-card:active *,.editorial-rank-card:focus-within *{color:inherit!important}
+.editorial-rank-card .editorial-rank-number{color:#ed7024!important}
+.editorial-rank-card .editorial-move.up{color:#198650!important}
+.editorial-rank-card .editorial-move.down{color:#c14355!important}
+.editorial-rank-top{display:flex!important;align-items:center!important;width:100%!important;box-sizing:border-box!important;border:0!important;text-align:left!important;cursor:pointer!important;font-family:inherit!important;color:#35243e!important}
+.editorial-rank-top:hover,.editorial-rank-top:active,.editorial-rank-top:focus-visible{background:linear-gradient(90deg,#f6e4e6,#fff0dc)!important;color:#35243e!important}
+.editorial-rank-toggle{flex:0 0 auto;margin-left:auto;font-size:28px;font-weight:900;color:#684578!important}
+.editorial-rank-content[hidden]{display:none!important}
+.editorial-rank-top:focus-visible{outline:3px solid #a87ac0!important;outline-offset:-3px}
+@media(max-width:750px){header #site-page-subtitle{font-size:clamp(11px,3.1vw,16px)!important;letter-spacing:.045em!important}}
+/* Never squeeze the home wordmark letters together */
+header .masthead-title-line h1,body.is-home-page header .masthead-title-line h1{letter-spacing:0!important;font-kerning:normal!important}
