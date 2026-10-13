@@ -289,3 +289,43 @@ nav button{flex:0 0 auto;white-space:nowrap}
  .layout.home-layout main section>#totw-list,
  .layout.home-layout main section>#trade-list{width:94%}
 }
+
+
+/* Top navigation, single-line headings and resilient compact team rows */
+nav{top:0;z-index:40;background:#35263e}
+.layout.home-layout main section>.hero h2{font-size:clamp(22px,5.1vw,75px)!important;white-space:nowrap!important;letter-spacing:-.015em;max-width:100%;overflow:visible}
+.layout.home-layout main section>.hero{padding-top:30px!important}
+.home-standings .standing .team{min-width:0}
+.home-standings .standing .team strong{white-space:nowrap!important;overflow:hidden;text-overflow:ellipsis;display:block;min-width:0;font-family:'Barlow Condensed',Impact,sans-serif;font-size:clamp(13px,1.65vw,23px)!important}
+.home-standings .standing .team img{flex:0 0 auto}
+.matchup-team-name{white-space:nowrap!important;overflow:hidden;text-overflow:ellipsis;min-width:0;flex:1 1 auto;font-size:clamp(15px,1.8vw,26px)!important}
+.matchup-side{min-width:0;overflow:hidden}
+.matchup-side .matchup-score{flex:0 0 auto}
+.editorial-grade{font-size:clamp(48px,5vw,76px)!important;border:3px solid currentColor!important;background:linear-gradient(135deg,#fff8ee,#f0e4ed)!important;box-shadow:0 5px 12px #3d254021;min-width:72px;text-align:center}
+.editorial-player-frame{display:grid;place-items:center;width:100%;height:100%}
+.portrait-placeholder{display:grid;place-items:center;width:100%;height:100%;font:900 18px 'Barlow Condensed',Impact,sans-serif;color:#5b3672;background:linear-gradient(145deg,#e8d3ef,#f9e5d5);border-radius:7px}
+.portrait-placeholder[hidden]{display:none!important}
+@media(max-width:750px){
+ nav{position:sticky!important;top:0!important}
+ .layout.home-layout main section>.hero h2{font-size:clamp(19px,5.2vw,39px)!important;letter-spacing:-.035em}
+ .home-standings .standing .team strong{font-size:clamp(10px,2.7vw,15px)!important}
+ .home-standings .standing .team img{width:26px;height:26px}
+ .home-standings-head,.home-standings .standing{grid-template-columns:25px minmax(0,1fr) 38px 52px 27px!important;gap:3px!important}
+ .home-standings-head{font-size:8px!important;letter-spacing:0!important}
+ .home-standings .standing-record,.home-standings .standing-pf{font-size:12px!important}
+ .matchup-trigger{grid-template-columns:1fr 22px!important;grid-template-rows:auto auto auto!important;gap:6px 10px!important;padding:12px!important}
+ .matchup-number{grid-column:1;grid-row:1;font-size:12px}
+ .matchup-expand{grid-column:2;grid-row:1}
+ .matchup-side{grid-column:1 / -1;grid-row:2;display:grid!important;grid-template-columns:32px minmax(0,1fr) auto;gap:8px!important;width:100%;text-align:left!important;justify-content:stretch!important}
+ .matchup-side.away{grid-row:3;grid-template-columns:32px minmax(0,1fr) auto;direction:rtl}
+ .matchup-side.away>*{direction:ltr}
+ .matchup-side.away img{grid-column:1;grid-row:1}
+ .matchup-side.away .matchup-team-name{grid-column:2;grid-row:1;text-align:left}
+ .matchup-side.away .matchup-score{grid-column:3;grid-row:1;margin:0!important}
+ .matchup-side img{width:30px!important;height:30px!important}
+ .matchup-team-name{font-size:clamp(17px,4.3vw,23px)!important}
+ .matchup-score{font-size:21px!important;margin:0!important}
+ .matchup-center{display:none}
+ .matchup-subline{padding:6px 12px 12px!important}
+ .editorial-grade{font-size:48px!important;min-width:54px}
+}
