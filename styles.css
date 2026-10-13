@@ -240,3 +240,52 @@ select:focus-visible,button:focus-visible{outline:3px solid #ef914b;outline-offs
 .editorial-grade.graded{color:#df5b32}
 .editorial-grade.grademinus,.editorial-grade.gradedminus,.editorial-grade.gradef{color:#c72f39}
 @media(max-width:760px){.home-standings-head,.home-standings .standing{grid-template-columns:38px minmax(0,1fr) 50px 60px 40px;gap:6px;padding:10px 5px}.home-standings .standing .team img{width:32px;height:32px}.home-standings .standing .team strong{font-size:11px}.home-standings .standing .team{gap:5px}.home-standings .standing-position{font-size:23px}.home-standings .standing-record,.home-standings .standing-pf{font-size:14px}.home-standings .standings-change{font-size:11px}.home-standings,.news-section{padding:12px}.league-news-grid{grid-template-columns:1fr}.league-news-card.lead-story{grid-column:auto}.editorial-slot{width:67px;min-width:67px;height:75px}.editorial-player-photo{width:62px;height:64px}.editorial-grade{font-size:40px!important}}
+
+
+/* Full-bleed title bands and one-line mobile navigation */
+body{background:#fff4e7;background-image:linear-gradient(180deg,#f6e8d9 0%,#fff4e7 34%,#f6e9ef 100%)}
+nav{display:flex;flex-wrap:nowrap;align-items:stretch;overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;scrollbar-color:#ac85c0 #35263e;white-space:nowrap;-webkit-overflow-scrolling:touch}
+nav button{flex:0 0 auto;white-space:nowrap}
+.layout.home-layout{max-width:none!important;padding:0!important;margin:0!important}
+.layout.home-layout main{width:100%;max-width:none}
+.layout.home-layout main section{min-width:0}
+.layout.home-layout main section>.hero{box-sizing:border-box;position:relative;margin:0 0 0!important;border:0!important;border-radius:0!important;box-shadow:none!important;overflow:hidden;background:linear-gradient(180deg,#ee7128 0%,#f38a43 28%,#f8ba81 55%,#f9e0c2 79%,#fff4e7 100%)!important;color:#382640!important;padding:34px max(4%,calc((100vw - 1350px)/2)) 92px!important;min-height:215px}
+.layout.home-layout main section>.hero h2{color:#36243c;font-size:clamp(48px,6.4vw,96px);line-height:1.02;text-shadow:none;margin:8px 0}
+.layout.home-layout main section>.hero p,.layout.home-layout main section>.hero .game-hero-kicker{color:#60445e;font-weight:800}
+.layout.home-layout main section>.hero:after{display:none!important}
+.layout.home-layout main section>.hero+.home-standings,
+.layout.home-layout main section>.hero+.match-toolbar,
+.layout.home-layout main section>.hero+#ranking-list,
+.layout.home-layout main section>.hero+#recap-list,
+.layout.home-layout main section>.hero+#totw-list,
+.layout.home-layout main section>.hero+#trade-list{margin-top:-44px!important;position:relative;z-index:1}
+.layout.home-layout main section>.home-standings,
+.layout.home-layout main section>.news-section,
+.layout.home-layout main section>.match-toolbar,
+.layout.home-layout main section>.matchup-stack,
+.layout.home-layout main section>.data-disclaimer,
+.layout.home-layout main section>#ranking-list,
+.layout.home-layout main section>#recap-list,
+.layout.home-layout main section>#totw-list,
+.layout.home-layout main section>#trade-list{width:min(92%,1350px);margin-left:auto!important;margin-right:auto!important}
+@media(max-width:750px){
+ nav{position:sticky;top:0;z-index:30;flex-wrap:nowrap!important;gap:0;padding:0 8px;justify-content:flex-start}
+ nav button{flex:0 0 auto!important;white-space:nowrap!important;font-size:15px!important;line-height:1.1;padding:15px 14px!important}
+ .layout.home-layout main section>.hero{padding:27px 5% 76px!important;min-height:175px}
+ .layout.home-layout main section>.hero h2{font-size:clamp(42px,11vw,64px)}
+ .layout.home-layout main section>.hero+.home-standings,
+ .layout.home-layout main section>.hero+.match-toolbar,
+ .layout.home-layout main section>.hero+#ranking-list,
+ .layout.home-layout main section>.hero+#recap-list,
+ .layout.home-layout main section>.hero+#totw-list,
+ .layout.home-layout main section>.hero+#trade-list{margin-top:-35px!important}
+ .layout.home-layout main section>.home-standings,
+ .layout.home-layout main section>.news-section,
+ .layout.home-layout main section>.match-toolbar,
+ .layout.home-layout main section>.matchup-stack,
+ .layout.home-layout main section>.data-disclaimer,
+ .layout.home-layout main section>#ranking-list,
+ .layout.home-layout main section>#recap-list,
+ .layout.home-layout main section>#totw-list,
+ .layout.home-layout main section>#trade-list{width:94%}
+}
