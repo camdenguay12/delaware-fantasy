@@ -431,3 +431,12 @@ header #site-page-subtitle{font-size:10px!important}
 .nav-brand{flex:0 0 80px!important;width:80px!important}
 .nav-brand img{width:74px!important;height:74px!important}
 }
+
+
+/* Override older global nav button layout: logo stays on far left */
+body>nav{justify-content:flex-start!important;flex-wrap:nowrap!important;gap:0!important}
+body>nav>.nav-brand{order:0!important;margin:0!important;padding:2px 8px!important;align-self:center!important}
+body>nav>.nav-tabs{order:1!important;justify-content:flex-start!important}
+body>nav>.nav-tabs>button{width:auto!important;min-width:max-content!important}
+.home-standings #standings{display:block!important;width:100%!important}
+.home-standings #standings>.standing{display:grid!important;float:none!important;position:relative!important;left:auto!important;right:auto!important;transform:none!important}
