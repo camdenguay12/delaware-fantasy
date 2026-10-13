@@ -329,3 +329,32 @@ nav{top:0;z-index:40;background:#35263e}
  .matchup-subline{padding:6px 12px 12px!important}
  .editorial-grade{font-size:48px!important;min-width:54px}
 }
+
+
+/* Compact shared masthead replaces page-specific hero banners */
+header{min-height:142px;padding:20px max(4%,calc((100vw - 1350px)/2)) 28px!important;background:linear-gradient(180deg,#ed7024 0%,#f1883d 55%,#f8c89c 82%,#fff4e7 100%)!important;border-bottom:0!important;box-shadow:none!important;gap:18px}
+header .logo{width:78px!important;flex-shrink:0}
+header h1{font-size:clamp(32px,6vw,78px)!important;line-height:1!important;white-space:nowrap!important;letter-spacing:.005em!important;text-shadow:2px 3px 0 #6c322e40!important}
+header #site-page-subtitle{font-size:clamp(9px,1.5vw,13px);letter-spacing:.12em}
+.layout.home-layout main section{padding-top:0}
+.layout.home-layout main section>.home-standings,.layout.home-layout main section>.match-toolbar,.layout.home-layout main section>#ranking-list,.layout.home-layout main section>#recap-list,.layout.home-layout main section>#totw-list,.layout.home-layout main section>#trade-list{margin-top:0!important}
+.layout.home-layout main section>.home-standings{padding-top:18px}
+.layout.home-layout main section>.match-toolbar{margin-top:8px!important}
+.sync-inline{display:block;font-size:11px;font-weight:800;color:#7b5a76;letter-spacing:.05em;margin:0 0 10px}
+.score-bars{margin:0!important;border:1px solid #dfc5d7;padding:18px!important}
+.score-bar-line{margin:17px 0!important}
+.score-bar-track{height:28px!important;background:#ded0df;border-radius:7px!important}
+.score-bar-fill.orange{background:linear-gradient(90deg,#ed7024,#ffa45b)!important}
+.score-bar-fill.purple{background:linear-gradient(90deg,#593273,#b98cda)!important}
+.score-bar-name strong{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.editorial-grade{color:var(--grade-color)!important;border:3px solid var(--grade-color)!important;background:linear-gradient(135deg,color-mix(in srgb,var(--grade-color) 27%,white),color-mix(in srgb,var(--grade-color) 7%,white))!important;text-shadow:0 1px 0 #ffffffaa;box-shadow:0 4px 14px color-mix(in srgb,var(--grade-color) 25%,transparent)!important}
+@media(max-width:750px){
+ header{min-height:96px;padding:12px 3% 20px!important;gap:9px!important}
+ header .logo{width:46px!important}
+ header h1{font-size:clamp(19px,6.1vw,41px)!important;letter-spacing:-.02em!important}
+ header #site-page-subtitle{font-size:9px!important;letter-spacing:.035em!important}
+ .score-bar-name{gap:7px!important}
+ .score-bar-name strong{font-size:clamp(12px,3vw,16px)}
+ .score-bar-name span{font-size:18px!important;white-space:nowrap}
+ .score-bar-name img{width:25px!important;height:25px!important}
+}
