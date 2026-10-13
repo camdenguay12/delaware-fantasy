@@ -407,3 +407,27 @@ header #site-page-subtitle{font-size:10px!important}
 .team-info-game span{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .team-info-game strong{white-space:nowrap}
 @media(max-width:750px){.team-info-dialog{padding:22px}.team-info-heading img{width:64px;height:64px}.team-info-stats strong{font-size:23px}}
+
+
+/* Standings: fixed-width full rows, three columns, large team identity */
+.home-standings-head,.home-standings .standing{display:grid!important;grid-template-columns:75px minmax(0,1fr) 105px!important;gap:20px!important;align-items:center!important;width:100%!important;max-width:100%!important;box-sizing:border-box!important}
+.home-standings .standing{appearance:none!important;margin:0!important;border-left:0!important;border-right:0!important;border-top:0!important;border-radius:0!important;min-height:94px!important;padding:12px 20px!important}
+.home-standings .standing .team{display:flex!important;flex:initial!important;min-width:0!important;gap:18px!important;align-items:center!important;justify-content:flex-start!important}
+.home-standings .standing .team img{width:66px!important;height:66px!important;flex:0 0 66px!important}
+.home-standings .standing .team strong{font-size:clamp(23px,2.7vw,36px)!important;line-height:1.08!important;overflow:hidden!important;text-overflow:ellipsis!important;white-space:nowrap!important}
+.home-standings .standing-record{font-size:clamp(24px,2.7vw,34px)!important;justify-self:center!important}
+.home-standings .standing-position{font-size:clamp(28px,3vw,40px)!important}
+.home-standings-head span:last-child{text-align:center}
+.nav-brand{display:grid!important;visibility:visible!important;opacity:1!important;position:relative!important;z-index:200!important;background:#35263e!important;flex-shrink:0!important}
+.nav-brand img{display:block!important;visibility:visible!important;opacity:1!important;max-width:none!important;filter:drop-shadow(0 2px 5px #0008)!important}
+@media(max-width:750px){
+.home-standings-head,.home-standings .standing{grid-template-columns:35px minmax(0,1fr) 48px!important;gap:8px!important}
+.home-standings .standing{min-height:78px!important;padding:9px 8px!important}
+.home-standings .standing .team{gap:9px!important}
+.home-standings .standing .team img{width:46px!important;height:46px!important;flex-basis:46px!important}
+.home-standings .standing .team strong{font-size:clamp(18px,4.4vw,25px)!important}
+.home-standings .standing-record{font-size:20px!important}
+.home-standings .standing-position{font-size:24px!important}
+.nav-brand{flex:0 0 80px!important;width:80px!important}
+.nav-brand img{width:74px!important;height:74px!important}
+}
