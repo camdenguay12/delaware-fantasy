@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-10-13",
+    "parties": [
+      {
+        "owner": "Greg",
+        "teamId": 6,
+        "receives": [
+          "Davante Adams",
+          "Ashton Jeanty"
+        ],
+        "grade": "A+",
+        "analysis": "Swaps Chase for Jeanty, addressing a need at RB, with Adams a major bonus. The commissioner cautions that Adams' best weeks may be behind him with Puka returning."
+      },
+      {
+        "owner": "Luke",
+        "teamId": 5,
+        "receives": [
+          "Ja’Marr Chase"
+        ],
+        "grade": "D",
+        "analysis": "Loses two key starters for Chase; the bye week delays Chase's debut and increases pressure on Luke's remaining running backs."
+      }
+    ]
+  },
+  {
+    "date": "2026-09-28",
+    "parties": [
+      {
+        "owner": "Camden",
+        "teamId": 15,
+        "receives": [
+          "Justin Herbert",
+          "Deebo Samuel Sr"
+        ],
+        "grade": "C+",
+        "analysis": "Buys low on Herbert and Deebo. Deebo offers more upside than Tucker, but Herbert shares a bye week with Josh Allen."
+      },
+      {
+        "owner": "Quinn",
+        "teamId": 12,
+        "receives": [
+          "Jared Goff",
+          "Tre Tucker"
+        ],
+        "grade": "B",
+        "analysis": "Addresses a pressing QB need with Goff while sacrificing Deebo's receiving upside."
+      }
+    ]
+  }
+]
