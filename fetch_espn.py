@@ -45,6 +45,20 @@ def main():
    pid=player.get('id')
    if name and pid and int(pid)>0:
     photos[name]={'id':pid,'headshot':f'https://a.espncdn.com/i/headshots/nfl/players/full/{pid}.png'}
+ # Fetch ESPN's broader player directory, including former rostered players.
+ # The commissioner selects players from earlier weeks who may no longer be rostered.
+ try:
+  pool_filter={'players':{'limit':2000,'sortPercOwned':{'sortPriority':1,'sortAsc':False}}}
+  req=urllib.request.Request(URL+'?view=kona_player_info',headers={'User-Agent':'Mozilla/5.0','Accept':'application/json','X-Fantasy-Filter':json.dumps(pool_filter)})
+  with urllib.request.urlopen(req,timeout=35) as response:pool=json.load(response)
+  for item in pool.get('players',[]):
+   player=item.get('player',item.get('playerPoolEntry',{}).get('player',{}))
+   name=player.get('fullName')
+   pid=player.get('id')
+   if name and pid and int(pid)>0:
+    photos[name]={'id':pid,'headshot':f'https://a.espncdn.com/i/headshots/nfl/players/full/{pid}.png'}
+ except Exception as exc:
+  print('Player directory unavailable, using roster portraits:',exc)
  schedule=raw.get('schedule',[])
  # The league-wide matchup view may omit schedule periods. Supplement it with the
  # period-specific scoreboard when necessary, while keeping any real scores.
