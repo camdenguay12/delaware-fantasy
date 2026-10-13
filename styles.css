@@ -555,3 +555,20 @@ header .masthead-content{gap:7px!important}
  .home-standings .standings-title h2{font-size:5.9vw!important}
  .home-standings .standings-title .standings-week{font-size:8px!important}
 }
+
+
+/* Extend orange color behind content without shifting any panes */
+body{background:linear-gradient(to bottom,#f47e2b 0,#f5a365 250px,#f8c79b 410px,#f9e0c4 600px,#fff5e8 900px,#fff9f0 1120px)!important;background-repeat:no-repeat!important;background-attachment:scroll!important}
+header{background:transparent!important;min-height:unset!important;padding-top:22px!important;padding-bottom:24px!important}
+header .masthead-content{min-height:120px!important}
+header #site-page-subtitle[hidden]{display:none!important}
+/* On Home the emblem tucks behind the final Y without covering the lettering */
+body.is-home-page header .masthead-title-line{gap:0!important}
+body.is-home-page header .home-hero-logo{width:clamp(82px,10vw,155px)!important;height:clamp(95px,12vw,180px)!important;margin-left:clamp(-22px,-1.4vw,-9px)!important;z-index:1!important;opacity:.95!important}
+body.is-home-page header .masthead-title-line h1{z-index:2!important}
+@media(max-width:750px){
+ body{background:linear-gradient(to bottom,#f47e2b 0,#f5a365 230px,#f8c79b 360px,#f9e0c4 530px,#fff5e8 780px,#fff9f0 1020px)!important}
+ header{min-height:unset!important;padding-top:15px!important;padding-bottom:18px!important}
+ header .masthead-content{min-height:105px!important}
+ body.is-home-page header .home-hero-logo{width:clamp(45px,13vw,86px)!important;height:clamp(60px,17vw,110px)!important;margin-left:-8px!important}
+}
