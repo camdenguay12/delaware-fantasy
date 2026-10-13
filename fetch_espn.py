@@ -59,17 +59,24 @@ def main():
     photos[name]={'id':pid,'headshot':f'https://a.espncdn.com/i/headshots/nfl/players/full/{pid}.png'}
  except Exception as exc:
   print('Player directory unavailable, using roster portraits:',exc)
- schedule=raw.get('schedule',[])
- # The league-wide matchup view may omit schedule periods. Supplement it with the
- # period-specific scoreboard when necessary, while keeping any real scores.
- periods=sorted(set(int(m.get('matchupPeriodId',0)) for m in schedule if m.get('matchupPeriodId'))|set(range(1,19)))
+ # ESPN's schedule view is more reliable for historical and upcoming matchups.
+ try:
+  season_schedule=get(URL+'?view=mSchedule').get('schedule',[])
+ except Exception as exc:
+  print('Full schedule request unavailable:',exc)
+  season_schedule=[]
+ schedule=season_schedule or raw.get('schedule',[])
+ periods=sorted(set(int(m.get('matchupPeriodId',0)) for m in schedule if m.get('matchupPeriodId'))|set(range(1,current+1)))
  all_games=[]
  for week in periods:
   matches=[m for m in schedule if int(m.get('matchupPeriodId',0))==week]
-  if not matches:
+  # Historical periods sometimes have no scores in the season schedule; ask
+  # ESPN's week-specific scoreboard to get the actual prior-week totals.
+  if not matches or (week<current and all((m.get('home') or {}).get('totalPoints') is None for m in matches)):
    try:
-    period=get(URL+VIEWS+f'&scoringPeriodId={week}&matchupPeriodId={week}')
-    matches=[m for m in period.get('schedule',[]) if int(m.get('matchupPeriodId',0))==week]
+    period=get(URL+'?view=mMatchupScore&view=mScoreboard&scoringPeriodId='+str(week)+'&matchupPeriodId='+str(week))
+    weekly=[m for m in period.get('schedule',[]) if int(m.get('matchupPeriodId',0))==week]
+    if weekly:matches=weekly
    except Exception as exc:
     print('Could not fetch week',week,exc)
   for m in matches:
