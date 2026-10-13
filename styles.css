@@ -44,3 +44,64 @@ aside h2{font-size:30px;line-height:1;margin-bottom:16px}
 .rank .team{background:transparent}
 section[hidden]{display:none!important}
 @media(max-width:750px){header{padding:17px 4%}header .logo{width:65px}nav{position:static}.layout{padding:15px 3%}.hero{padding:18px}.totw-player img{width:72px;height:72px}}
+
+
+/* Commissioner editorial experience */
+.editorial-controls{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;padding:20px 23px;margin:22px 0 18px;border-radius:14px;background:#33243d;color:#fff7ef}
+.editorial-controls strong{font:900 24px 'Barlow Condensed',Impact,sans-serif;letter-spacing:.035em}
+.editorial-controls p{margin:4px 0 0;color:#e2c9e8;font-size:12px}
+.editorial-controls label{font-size:12px;font-weight:800;letter-spacing:.06em;display:flex;gap:10px;align-items:center}
+.editorial-controls select{border:0;background:#fff7ef;color:#33243d;border-radius:8px;padding:11px 14px;font-weight:800}
+.editorial-rank-grid{display:grid;gap:15px}
+.editorial-rank-card{background:#fffdf9;border:1px solid #ecd9c9;border-left:7px solid #ed7024;border-radius:12px;box-shadow:0 8px 18px #4e2c4010;overflow:hidden}
+.editorial-rank-top{display:flex;gap:15px;align-items:center;padding:17px 21px;background:linear-gradient(90deg,#fff1e5,#fffaf6)}
+.editorial-rank-number{font:900 49px 'Barlow Condensed',Impact,sans-serif;color:#ed7024;min-width:66px}
+.editorial-logo{width:48px;height:48px;object-fit:contain;border-radius:50%;background:#fff;flex-shrink:0;padding:3px}
+.editorial-initial{display:grid;place-items:center;font-weight:900}
+.editorial-rank-name{flex:1;min-width:0}
+.editorial-rank-name h3{font:900 clamp(20px,2.4vw,29px) 'Barlow Condensed',Impact,sans-serif;margin:0;line-height:1.05}
+.editorial-rank-name small{color:#7e6284;font-weight:700}
+.editorial-move{font:900 14px Inter,Arial;background:#e9ddec;border-radius:8px;padding:9px;white-space:nowrap}
+.editorial-move.up{color:#19754b;background:#ddf3e4}.editorial-move.down{color:#a43f43;background:#fce2e0}
+.editorial-rank-content{display:grid;grid-template-columns:minmax(0,1fr) 200px;gap:20px;padding:16px 22px 21px}
+.editorial-quote{line-height:1.65;margin:0;font-size:13px;color:#493e4b}
+.editorial-facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.editorial-facts span{background:#f4eaf7;padding:8px 10px;border-radius:7px;font-size:11px}
+.editorial-facts b{color:#a05032}
+.editorial-trend{border-left:1px solid #eadce5;padding-left:15px;align-self:center}
+.editorial-trend>strong{font-size:10px;letter-spacing:.1em;color:#8e6d9a}
+.ranking-spark{width:100%;height:auto}
+.editorial-stat-row{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-bottom:20px}
+.editorial-stat-row>div{background:#fffdf9;border-radius:12px;border-top:5px solid #a77cc1;padding:17px;display:flex;flex-direction:column;gap:5px}
+.editorial-stat-row span{font-size:10px;font-weight:900;letter-spacing:.08em;color:#79518a}
+.editorial-stat-row strong{font:900 36px 'Barlow Condensed',Impact,sans-serif;color:#e86e25}
+.editorial-stat-row small{color:#7b7080;font-size:11px}
+.editorial-stars{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.editorial-star{display:flex;align-items:center;gap:13px;background:#fffdf9;border:1px solid #e9d9ce;border-radius:12px;padding:16px;min-width:0}
+.editorial-slot{font:900 22px 'Barlow Condensed',Impact,sans-serif;color:#fff;background:#9e73bc;min-width:62px;text-align:center;padding:13px 5px;border-radius:8px}
+.editorial-slot small{display:block;font-size:10px}
+.editorial-star>div{min-width:0;flex:1}
+.editorial-star h3{font:900 22px 'Barlow Condensed',Impact,sans-serif;margin:0;line-height:1.15}
+.editorial-teamline{display:flex;align-items:center;gap:6px;font-size:11px;color:#765c7d;margin-top:7px}
+.editorial-teamline .editorial-logo{width:22px;height:22px}
+.editorial-star>strong{font:900 26px 'Barlow Condensed',Impact,sans-serif;color:#ed7024;white-space:nowrap}
+.editorial-star>strong small{font-size:11px;color:#79657c}
+.editorial-trade-count{font:900 18px 'Barlow Condensed',Impact,sans-serif;color:#fff}
+.editorial-trade{background:#fffdf9;border:1px solid #e9d9ce;border-radius:14px;overflow:hidden;margin-bottom:22px}
+.editorial-trade-header{background:#ed7024;color:#fff;display:flex;justify-content:space-between;align-items:center;padding:16px 22px;gap:10px}
+.editorial-trade-header small,.editorial-trade-header span{font-size:10px;font-weight:900;letter-spacing:.09em}
+.editorial-trade-header h3{font:900 30px 'Barlow Condensed',Impact,sans-serif;margin:3px 0 0}
+.editorial-trade-sides{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+.editorial-trade-side{padding:20px}
+.editorial-trade-side+.editorial-trade-side{border-left:1px solid #ead8e1}
+.editorial-trade-team{display:flex;gap:11px;align-items:center}
+.editorial-trade-team>div{flex:1;min-width:0}
+.editorial-trade-team h3{font:900 22px 'Barlow Condensed',Impact,sans-serif;margin:0}
+.editorial-trade-team small{font-size:10px;color:#79518a;font-weight:800}
+.editorial-grade{font:900 33px 'Barlow Condensed',Impact,sans-serif;color:#ed7024}
+.editorial-trade-side ul{padding-left:22px;font-weight:800;line-height:1.9}
+.editorial-trade-side p{font-size:12px;line-height:1.7;color:#5b4a60}
+.editorial-trade-foot{background:#f2e7f3;padding:13px 20px;font-size:11px;color:#6d5476}
+.editorial-source{font-size:11px;color:#86758b;margin:17px 0 28px}
+@media(max-width:1000px){.editorial-rank-content{grid-template-columns:1fr}.editorial-trend{border-left:0;border-top:1px solid #eadce5;padding:10px 0 0}.ranking-spark{max-width:210px}}
+@media(max-width:650px){.editorial-stars,.editorial-trade-sides{grid-template-columns:1fr}.editorial-trade-side+.editorial-trade-side{border-left:0;border-top:1px solid #ead8e1}.editorial-stat-row{gap:6px}.editorial-stat-row>div{padding:11px}.editorial-stat-row strong{font-size:27px}.editorial-rank-top{gap:9px;padding:12px}.editorial-rank-number{font-size:35px;min-width:46px}.editorial-logo{width:38px;height:38px}.editorial-rank-content{padding:15px}.editorial-star{padding:12px}.editorial-star h3{font-size:19px}}
