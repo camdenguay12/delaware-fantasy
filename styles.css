@@ -577,3 +577,18 @@ body.is-home-page header .masthead-title-line h1{z-index:2!important}
 /* Preserve the original pane vertical position while fading page background */
 header{min-height:255px!important;padding-top:28px!important;padding-bottom:68px!important;box-sizing:border-box!important}
 @media(max-width:750px){header{min-height:215px!important;padding-top:24px!important;padding-bottom:55px!important}}
+
+
+/* Deep-orange top, extended slow transition into cream */
+body{background:linear-gradient(to bottom,#e9671e 0px,#eb6d20 145px,#ef7c2c 300px,#f29a52 510px,#f6bc86 760px,#f9d9b6 1010px,#fff1df 1330px,#fff9f0 1580px)!important;background-repeat:no-repeat!important;background-color:#fff9f0!important}
+header{background:transparent!important}
+/* Large hero emblem deliberately sits behind the Y, with the title in front */
+body.is-home-page header .masthead-title-line{position:relative!important;isolation:isolate!important;gap:0!important}
+body.is-home-page header .masthead-title-line h1{position:relative!important;z-index:3!important}
+body.is-home-page header .home-hero-logo{position:relative!important;z-index:1!important;flex:0 0 auto!important;width:clamp(145px,16vw,240px)!important;height:clamp(150px,18vw,250px)!important;margin-left:clamp(-82px,-5vw,-48px)!important;opacity:.95!important}
+@media(max-width:750px){
+ body{background:linear-gradient(to bottom,#e9671e 0px,#eb6d20 120px,#ef7c2c 260px,#f29a52 450px,#f6bc86 660px,#f9d9b6 870px,#fff1df 1120px,#fff9f0 1360px)!important}
+ header{min-height:150px!important;padding-top:8px!important;padding-bottom:12px!important}
+ header .masthead-content{min-height:85px!important;gap:4px!important}
+ body.is-home-page header .home-hero-logo{width:clamp(75px,22vw,155px)!important;height:clamp(90px,26vw,170px)!important;margin-left:clamp(-51px,-11vw,-30px)!important}
+}
