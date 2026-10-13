@@ -468,3 +468,25 @@ header h1{font-size:clamp(35px,10.6vw,84px)!important;letter-spacing:-.06em!impo
 .home-standings #home-sync-status{font-size:9px!important}
 }
 @media(max-width:400px){header h1{font-size:10.1vw!important;letter-spacing:-.065em!important}}
+
+
+/* Responsive title-and-emblem lockup: no overlap at any width */
+header .masthead-content{display:flex!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:7px!important;min-width:0!important;max-width:100%!important;width:100%!important}
+header .masthead-title-line{display:flex!important;align-items:center!important;justify-content:center!important;gap:clamp(5px,1.4vw,22px)!important;max-width:100%!important;width:100%!important;min-width:0!important}
+header .masthead-title-line h1{display:block!important;flex:0 1 auto!important;min-width:0!important;max-width:100%!important;margin:0!important;line-height:.95!important;white-space:nowrap!important;letter-spacing:-.055em!important;font-size:clamp(46px,9.5vw,155px)!important}
+header .home-hero-logo,body.is-home-page header .home-hero-logo{position:static!important;display:none!important;flex:0 0 auto!important;transform:none!important;filter:drop-shadow(0 3px 5px #46233655)!important;opacity:1!important;pointer-events:none!important;object-fit:contain!important;width:clamp(48px,6.5vw,94px)!important;height:clamp(62px,8vw,120px)!important}
+body.is-home-page header .home-hero-logo{display:block!important}
+header #site-page-subtitle{margin-top:0!important}
+@media(max-width:750px){
+ header{min-height:185px!important;padding:26px 2% 38px!important}
+ header .masthead-content{min-height:115px!important}
+ header .masthead-title-line{gap:5px!important}
+ header .masthead-title-line h1{font-size:clamp(40px,10.5vw,79px)!important;letter-spacing:-.07em!important}
+ body.is-home-page header .masthead-title-line h1{font-size:clamp(32px,8.7vw,65px)!important;letter-spacing:-.075em!important}
+ body.is-home-page header .home-hero-logo{width:clamp(35px,10vw,65px)!important;height:clamp(49px,13vw,84px)!important}
+}
+@media(max-width:390px){
+ header .masthead-title-line h1{font-size:10vw!important}
+ body.is-home-page header .masthead-title-line h1{font-size:8.45vw!important}
+ body.is-home-page header .home-hero-logo{width:9vw!important;height:13vw!important}
+}
