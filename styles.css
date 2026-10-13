@@ -572,3 +572,8 @@ body.is-home-page header .masthead-title-line h1{z-index:2!important}
  header .masthead-content{min-height:105px!important}
  body.is-home-page header .home-hero-logo{width:clamp(45px,13vw,86px)!important;height:clamp(60px,17vw,110px)!important;margin-left:-8px!important}
 }
+
+
+/* Preserve the original pane vertical position while fading page background */
+header{min-height:255px!important;padding-top:28px!important;padding-bottom:68px!important;box-sizing:border-box!important}
+@media(max-width:750px){header{min-height:215px!important;padding-top:24px!important;padding-bottom:55px!important}}
