@@ -440,3 +440,31 @@ body>nav>.nav-tabs{order:1!important;justify-content:flex-start!important}
 body>nav>.nav-tabs>button{width:auto!important;min-width:max-content!important}
 .home-standings #standings{display:block!important;width:100%!important}
 .home-standings #standings>.standing{display:grid!important;float:none!important;position:relative!important;left:auto!important;right:auto!important;transform:none!important}
+
+
+/* Hero identity, readable mobile titles, standings rhythm */
+.masthead-content{position:relative;isolation:isolate;display:grid;place-items:center;width:100%;min-width:0;min-height:120px}
+.masthead-content h1{position:relative;z-index:2;max-width:100%;margin:0;text-align:center}
+.home-hero-logo{display:none;position:absolute;z-index:1;pointer-events:none;object-fit:contain;opacity:.48;width:clamp(160px,25vw,350px);height:clamp(165px,24vw,310px);top:50%;left:50%;transform:translate(-50%,-50%);filter:drop-shadow(0 6px 10px #4a203750)}
+body.is-home-page .home-hero-logo{display:block}
+header{overflow:hidden!important}
+header #site-page-subtitle{position:relative;z-index:2}
+.home-standings{overflow:visible!important}
+.home-standings .standings-title{position:relative;margin-top:-56px!important;margin-bottom:20px!important;padding:0 8px!important;background:transparent!important}
+.home-standings .standings-title h2{color:#35233f!important;text-shadow:none!important}
+.home-standings .standing:nth-child(even){background:#eee0f5!important}
+.home-standings .standing:nth-child(odd){background:#fff9fa!important}
+.home-standings .standing:hover,.home-standings .standing:focus-visible,.home-standings .standing:active{background:#654477!important}
+.home-standings #home-sync-status{font-size:10px!important;letter-spacing:0!important;color:#937b92!important;text-align:right!important;opacity:.7!important;margin:0 0 5px!important}
+.home-standings .standings-title+.sync-inline{position:absolute;right:20px;top:17px}
+.home-standings{position:relative!important;padding-top:58px!important}
+@media(max-width:750px){
+header{min-height:210px!important;padding:25px 1% 50px!important}
+.masthead-content{min-height:155px}
+header h1{font-size:clamp(35px,10.6vw,84px)!important;letter-spacing:-.06em!important;white-space:nowrap!important;max-width:100%!important}
+.home-hero-logo{width:210px;height:205px;opacity:.53}
+.home-standings .standings-title{margin-top:-48px!important}
+.home-standings .standings-title h2{font-size:clamp(26px,7.1vw,42px)!important}
+.home-standings #home-sync-status{font-size:9px!important}
+}
+@media(max-width:400px){header h1{font-size:10.1vw!important;letter-spacing:-.065em!important}}
