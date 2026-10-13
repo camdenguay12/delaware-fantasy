@@ -1,1 +1,33 @@
-{"week":null,"leaders":[]}
+{
+  "week": 5,
+  "leaders": [
+    {
+      "position": "RB",
+      "name": "Jahmyr Gibbs",
+      "playerId": 4429795,
+      "teamId": 4,
+      "points": 37.7,
+      "lineupSlot": "RB",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4429795.png"
+    },
+    {
+      "position": "WR",
+      "name": "Isaiah Likely",
+      "playerId": 4361050,
+      "teamId": 7,
+      "points": 32.4,
+      "lineupSlot": "TE",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4361050.png"
+    },
+    {
+      "position": "D/ST",
+      "name": "Jets D/ST",
+      "playerId": -16020,
+      "teamId": 1,
+      "points": 18.0,
+      "lineupSlot": "D/ST",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/-16020.png"
+    }
+  ],
+  "note": "Only ESPN starting lineup slots are eligible; FLEX players compete in their natural position."
+}
