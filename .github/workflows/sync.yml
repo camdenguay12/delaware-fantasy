@@ -15,7 +15,8 @@ jobs:
           python-version: '3.12'
       - name: Fetch public ESPN league
         run: python fetch_espn.py
-      - name: Fetch ESPN NFL headshots\n        run: python fetch_player_photos.py\n      - name: Collect weekly starters and trades
+      - name: Fetch ESPN NFL headshots
+        run: python fetch_player_photos.py\n      - name: Collect weekly starters and trades
         run: python collect_extras.py
       - name: Commit updated data
         run: |
