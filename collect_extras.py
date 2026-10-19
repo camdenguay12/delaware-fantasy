@@ -39,6 +39,29 @@ def starters(raw,week):
         candidate={"position":position,"name":p.get("fullName") or p.get("name") or "Unknown","playerId":pid,"teamId":team_id,"points":round(float(score),2),"lineupSlot":SLOTS[slot],"headshot":f"https://a.espncdn.com/i/headshots/nfl/players/full/{pid}.png" if pid else None}
         if position not in best or candidate["points"]>best[position]["points"]:best[position]=candidate
     return best,allpoints
+def build_allstars(raw,week):
+    players=[]
+    for team_id,e in entries_for_week(raw,week):
+        slot=e.get("lineupSlotId")
+        p=e.get("playerPoolEntry",{}).get("player",{})
+        val=points(e,week)
+        position=POSITIONS.get(p.get("defaultPositionId"))
+        if slot not in SLOTS or position is None or val is None or p.get("id") is None:continue
+        players.append({"week":week,"slot":position,"player":p.get("fullName") or p.get("name") or "Unknown",
+                        "points":round(float(val),2),"teamId":team_id,"playerId":p["id"]})
+    players.sort(key=lambda x:x["points"],reverse=True)
+    chosen=[];used=set()
+    def take(positions,n,label):
+        for x in players:
+            if n==0:break
+            if x["slot"] not in positions or x["playerId"] in used:continue
+            chosen.append({**x,"slot":label});used.add(x["playerId"]);n-=1
+    for pos,n in (("QB",1),("RB",2),("WR",2),("TE",1)):
+        take({pos},n,pos)
+    take({"RB","WR","TE"},2,"FLEX")
+    take({"D/ST"},1,"D/ST")
+    take({"K"},1,"K")
+    return chosen
 def trade_records(raw):
     records=[]
     for tx in raw.get("transactions",[]):
@@ -53,17 +76,23 @@ def trade_records(raw):
     return records
 def main():
     current=load("league.json",{}).get("week",1)
-    last=max(1,int(current)-1)
+    season_start=datetime.datetime(2026,9,7,tzinfo=datetime.timezone.utc)
+    calendar_week=max(1,min(18,1+(datetime.datetime.now(datetime.timezone.utc)-season_start).days//7))
+    last=max(1,int(current)-1,calendar_week-1)
     weekly=load("player_weekly.json",{})
-    best={}
+    best={};automatic=[]
     for week in range(1,last+1):
         try:
             raw=request(BASE+f"?view=mBoxscore&view=mMatchupScore&scoringPeriodId={week}&matchupPeriodId={week}")
             leaders,scores=starters(raw,week)
             if scores:weekly[str(week)]=scores
-            if week==last:best=leaders
+            if week==last:
+                best=leaders
+                automatic=build_allstars(raw,week)
         except Exception as exc:print(f"Week {week} boxscore unavailable: {exc}")
     write("player_weekly.json",weekly)
+    if len(automatic)==10:write("commissioner_totw_auto.json",automatic)
+    else:print("Week",last,"starter-only All-Star data incomplete; keeping last verified week")
     if best:write("team_of_week.json",{"week":last,"leaders":list(best.values()),"note":"Only ESPN starting lineup slots are eligible; FLEX players compete in their natural position."})
     try:
         raw=request(BASE+"?view=mTransactions2")
