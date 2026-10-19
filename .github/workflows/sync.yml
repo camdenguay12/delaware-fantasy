@@ -25,5 +25,5 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/team-logos/ data/league.json data/history.json data/team_of_week.json data/trades.json data/player_weekly.json data/player_photos.json
+          git add assets/team-logos/ data/league.json data/history.json data/team_of_week.json data/commissioner_totw_auto.json data/trades.json data/player_weekly.json data/player_photos.json
           git diff --cached --quiet || (git commit -m 'Update ESPN league scores and projections' && git push)
