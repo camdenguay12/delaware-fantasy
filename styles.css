@@ -615,3 +615,74 @@ body{background:linear-gradient(to bottom,#e9671e 0px,#eb6d20 70px,#ef7c2c 185px
 .record-card p,.records-accuracy p{margin:0;color:#604c67;line-height:1.5}
 .records-accuracy{margin-top:15px}.records-accuracy h3{margin:0 0 10px;color:#4d3459}
 @media(max-width:750px){.records-grid{grid-template-columns:1fr;gap:9px}.record-card,.records-accuracy{padding:14px}.record-card strong{margin:5px 0}}
+
+
+/* Stacked scoreboard: consistent team and total columns on every screen. */
+#matchups-page .matchup-stack{gap:14px}
+#matchups-page .matchup-row{border-radius:16px}
+#matchups-page .matchup-trigger{
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) 34px!important;
+  grid-template-rows:auto auto auto!important;
+  gap:10px 8px!important;
+  align-items:center;
+  padding:15px 18px 12px!important;
+}
+#matchups-page .matchup-number{grid-column:1;grid-row:1;font-size:15px}
+#matchups-page .matchup-expand{grid-column:2;grid-row:1;font-size:27px}
+#matchups-page .matchup-side,
+#matchups-page .matchup-side.away{
+  grid-column:1 / -1;
+  display:grid!important;
+  grid-template-columns:48px minmax(0,1fr) minmax(65px,auto)!important;
+  align-items:center;
+  gap:12px!important;
+  width:100%;
+  min-width:0;
+  padding:10px 12px;
+  border-radius:10px;
+  background:rgba(255,255,255,.67);
+  direction:ltr!important;
+  text-align:left!important;
+  justify-content:stretch!important;
+  overflow:visible;
+}
+#matchups-page .matchup-side{grid-row:2}
+#matchups-page .matchup-side.away{grid-row:3;background:rgba(255,255,255,.44)}
+#matchups-page .matchup-side img,
+#matchups-page .matchup-side.away img{
+  grid-column:1;grid-row:1;width:44px!important;height:44px!important;
+}
+#matchups-page .matchup-side .matchup-team-name,
+#matchups-page .matchup-side.away .matchup-team-name{
+  grid-column:2;grid-row:1;
+  white-space:normal!important;overflow-wrap:break-word!important;
+  overflow:visible;text-overflow:clip;
+  font-size:clamp(18px,2.5vw,26px)!important;
+  line-height:1.12;text-align:left!important;
+}
+#matchups-page .matchup-side .matchup-score,
+#matchups-page .matchup-side.away .matchup-score{
+  grid-column:3;grid-row:1;
+  margin:0!important;justify-self:end;
+  font-size:clamp(23px,3vw,32px)!important;
+  font-variant-numeric:tabular-nums;
+}
+#matchups-page .matchup-center{display:none!important}
+#matchups-page .matchup-subline{padding:2px 19px 14px!important;flex-wrap:wrap;line-height:1.5}
+@media(max-width:600px){
+  #matchups-page .matchup-trigger{padding:11px 10px 8px!important;gap:7px!important;grid-template-columns:minmax(0,1fr) 26px!important}
+  #matchups-page .matchup-number{font-size:13px}
+  #matchups-page .matchup-side,
+  #matchups-page .matchup-side.away{
+    grid-template-columns:34px minmax(0,1fr) minmax(55px,auto)!important;
+    padding:9px 8px;gap:8px!important;
+  }
+  #matchups-page .matchup-side img,
+  #matchups-page .matchup-side.away img{width:32px!important;height:32px!important}
+  #matchups-page .matchup-side .matchup-team-name,
+  #matchups-page .matchup-side.away .matchup-team-name{font-size:clamp(16px,4.5vw,21px)!important}
+  #matchups-page .matchup-side .matchup-score,
+  #matchups-page .matchup-side.away .matchup-score{font-size:clamp(20px,5.6vw,26px)!important}
+  #matchups-page .matchup-subline{padding:3px 12px 12px!important;font-size:10px}
+}
