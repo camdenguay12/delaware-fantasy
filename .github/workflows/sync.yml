@@ -15,6 +15,8 @@ jobs:
           python-version: '3.12'
       - name: Fetch public ESPN league
         run: python fetch_espn.py
+      - name: Cache custom ESPN fantasy logos
+        run: python cache_team_logos.py
       - name: Fetch ESPN NFL headshots
         run: python fetch_player_photos.py
       - name: Collect weekly starters and trades
@@ -23,5 +25,5 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/league.json data/history.json data/team_of_week.json data/trades.json data/player_weekly.json data/player_photos.json
+          git add assets/team-logos/ data/league.json data/history.json data/team_of_week.json data/trades.json data/player_weekly.json data/player_photos.json
           git diff --cached --quiet || (git commit -m 'Update ESPN league scores and projections' && git push)
