@@ -31,7 +31,13 @@ def standings_from_games(games,team_ids,through):
  return sorted(team_ids,key=lambda i:(-wins[i],-pts[i],i))
 def main():
  raw=get(URL+VIEWS)
- current=int(raw.get('scoringPeriodId') or raw.get('status',{}).get('currentMatchupPeriod') or 1)
+ status=raw.get('status') or {}
+ current=max(int(raw.get('scoringPeriodId') or 0),int(status.get('currentScoringPeriod') or 0),int(status.get('currentMatchupPeriod') or 0),1)
+ try:
+  live=get(URL+f'?view=mMatchupScore&view=mScoreboard&view=mLiveScoring&scoringPeriodId={current}&matchupPeriodId={current}')
+ except Exception as exc:
+  print('Current scoreboard unavailable:',exc)
+  live={}
  teams=[]
  for t in raw.get('teams',[]):
   record=t.get('record',{}).get('overall',{})
@@ -66,6 +72,9 @@ def main():
   print('Full schedule request unavailable:',exc)
   season_schedule=[]
  schedule=season_schedule or raw.get('schedule',[])
+ live_matches=[m for m in live.get('schedule',[]) if int(m.get('matchupPeriodId') or 0)==current]
+ if live_matches:
+  schedule=[m for m in schedule if int(m.get('matchupPeriodId') or 0)!=current]+live_matches
  periods=sorted(set(int(m.get('matchupPeriodId',0)) for m in schedule if m.get('matchupPeriodId'))|set(range(1,current+1)))
  all_games=[]
  for week in periods:
