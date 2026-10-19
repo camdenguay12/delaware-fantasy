@@ -4,8 +4,8 @@ const el=()=>document.getElementById('records-list');
 const fmt=n=>Number(n).toFixed(2);
 const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function draw(){
- const node=el();if(!node||!window.league)return;
- const l=window.league,teams=l.teams||[],games=(l.schedule||[]).filter(g=>+g.week<+l.week&&Number.isFinite(+g.homeScore)&&Number.isFinite(+g.awayScore)&&g.homeScore!==null&&g.awayScore!==null);
+ const node=el();if(!node||typeof league==='undefined'||!league)return;
+ const l=league,teams=l.teams||[],games=(l.schedule||[]).filter(g=>+g.week<+l.week&&Number.isFinite(+g.homeScore)&&Number.isFinite(+g.awayScore)&&g.homeScore!==null&&g.awayScore!==null);
  const name=id=>teams.find(t=>String(t.id)===String(id))?.name||'Team '+id;
  const entries=games.flatMap(g=>[{id:g.homeId,week:g.week,score:+g.homeScore,margin:+g.homeScore-(+g.awayScore),opp:g.awayId},{id:g.awayId,week:g.week,score:+g.awayScore,margin:+g.awayScore-(+g.homeScore),opp:g.homeId}]);
  const best=(arr,field,high)=>arr.length?[...arr].sort((a,b)=>high?b[field]-a[field]:a[field]-b[field])[0]:null;
