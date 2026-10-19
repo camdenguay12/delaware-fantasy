@@ -12,12 +12,39 @@
     },
     {
       "position": "WR",
+      "name": "Puka Nacua",
+      "playerId": 4426515,
+      "teamId": 7,
+      "points": 37.7,
+      "lineupSlot": "WR",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4426515.png"
+    },
+    {
+      "position": "TE",
       "name": "Isaiah Likely",
       "playerId": 4361050,
       "teamId": 7,
       "points": 32.4,
       "lineupSlot": "TE",
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4361050.png"
+    },
+    {
+      "position": "K",
+      "name": "Jason Myers",
+      "playerId": 2473037,
+      "teamId": 11,
+      "points": 23.0,
+      "lineupSlot": "K",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2473037.png"
+    },
+    {
+      "position": "QB",
+      "name": "Drake Maye",
+      "playerId": 4431452,
+      "teamId": 1,
+      "points": 39.46,
+      "lineupSlot": "QB",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431452.png"
     },
     {
       "position": "D/ST",
