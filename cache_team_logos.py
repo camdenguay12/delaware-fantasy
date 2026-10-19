@@ -28,9 +28,9 @@ def main():
                 typ = resp.headers.get("Content-Type", "").lower()
             if len(blob) > 5_000_000 or len(blob) < 100 or not typ.startswith("image/"):
                 raise ValueError("Unexpected image response: " + typ)
-            if blob.startswith(b"\x89PNG\\r\\n\\x1a\\n"):
+            if blob.startswith(b"\x89PNG\r\n\x1a\n"):
                 ext = ".png"
-            elif blob.startswith(b"\xff\\xd8\\xff"):
+            elif blob.startswith(b"\xff\xd8\xff"):
                 ext = ".jpg"
             elif blob.startswith(b"RIFF") and blob[8:12] == b"WEBP":
                 ext = ".webp"
