@@ -1,0 +1,82 @@
+[
+  {
+    "week": 6,
+    "slot": "QB",
+    "player": "Trevor Lawrence",
+    "points": 27.34,
+    "teamId": 11,
+    "playerId": 4360310
+  },
+  {
+    "week": 6,
+    "slot": "RB",
+    "player": "Kenneth Walker III",
+    "points": 27.9,
+    "teamId": 1,
+    "playerId": 4567048
+  },
+  {
+    "week": 6,
+    "slot": "RB",
+    "player": "Bhayshul Tuten",
+    "points": 24.7,
+    "teamId": 2,
+    "playerId": 4882093
+  },
+  {
+    "week": 6,
+    "slot": "WR",
+    "player": "Malik Nabers",
+    "points": 28.5,
+    "teamId": 14,
+    "playerId": 4595348
+  },
+  {
+    "week": 6,
+    "slot": "WR",
+    "player": "Tre Tucker",
+    "points": 26.7,
+    "teamId": 12,
+    "playerId": 4428718
+  },
+  {
+    "week": 6,
+    "slot": "TE",
+    "player": "Isaiah Likely",
+    "points": 23.9,
+    "teamId": 7,
+    "playerId": 4361050
+  },
+  {
+    "week": 6,
+    "slot": "FLEX",
+    "player": "Germie Bernard",
+    "points": 25.7,
+    "teamId": 10,
+    "playerId": 4685261
+  },
+  {
+    "week": 6,
+    "slot": "FLEX",
+    "player": "Jaxon Smith-Njigba",
+    "points": 25.4,
+    "teamId": 10,
+    "playerId": 4430878
+  },
+  {
+    "week": 6,
+    "slot": "D/ST",
+    "player": "Chiefs D/ST",
+    "points": 14.0,
+    "teamId": 4,
+    "playerId": -16012
+  },
+  {
+    "week": 6,
+    "slot": "K",
+    "player": "Chase McLaughlin",
+    "points": 17.0,
+    "teamId": 6,
+    "playerId": 3150744
+  }
+]

@@ -1,59 +1,59 @@
 {
-  "week": 5,
+  "week": 6,
   "leaders": [
     {
-      "position": "RB",
-      "name": "Jahmyr Gibbs",
-      "playerId": 4429795,
-      "teamId": 4,
-      "points": 37.7,
-      "lineupSlot": "RB",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4429795.png"
+      "position": "WR",
+      "name": "Malik Nabers",
+      "playerId": 4595348,
+      "teamId": 14,
+      "points": 28.5,
+      "lineupSlot": "FLEX",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4595348.png"
     },
     {
-      "position": "WR",
-      "name": "Puka Nacua",
-      "playerId": 4426515,
-      "teamId": 7,
-      "points": 37.7,
-      "lineupSlot": "WR",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4426515.png"
+      "position": "RB",
+      "name": "Kenneth Walker III",
+      "playerId": 4567048,
+      "teamId": 1,
+      "points": 27.9,
+      "lineupSlot": "RB",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4567048.png"
+    },
+    {
+      "position": "K",
+      "name": "Chase McLaughlin",
+      "playerId": 3150744,
+      "teamId": 6,
+      "points": 17.0,
+      "lineupSlot": "K",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3150744.png"
     },
     {
       "position": "TE",
       "name": "Isaiah Likely",
       "playerId": 4361050,
       "teamId": 7,
-      "points": 32.4,
+      "points": 23.9,
       "lineupSlot": "TE",
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4361050.png"
     },
     {
-      "position": "K",
-      "name": "Jason Myers",
-      "playerId": 2473037,
-      "teamId": 11,
-      "points": 23.0,
-      "lineupSlot": "K",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2473037.png"
-    },
-    {
       "position": "QB",
-      "name": "Drake Maye",
-      "playerId": 4431452,
-      "teamId": 1,
-      "points": 39.46,
+      "name": "Trevor Lawrence",
+      "playerId": 4360310,
+      "teamId": 11,
+      "points": 27.34,
       "lineupSlot": "QB",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431452.png"
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4360310.png"
     },
     {
       "position": "D/ST",
-      "name": "Jets D/ST",
-      "playerId": -16020,
-      "teamId": 1,
-      "points": 18.0,
+      "name": "Chiefs D/ST",
+      "playerId": -16012,
+      "teamId": 4,
+      "points": 14.0,
       "lineupSlot": "D/ST",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/-16020.png"
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/-16012.png"
     }
   ],
   "note": "Only ESPN starting lineup slots are eligible; FLEX players compete in their natural position."
