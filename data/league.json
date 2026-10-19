@@ -1,6 +1,6 @@
 {
   "week": 6,
-  "updatedAt": "2026-10-19T19:29:41.427184+00:00",
+  "updatedAt": "2026-10-19T22:22:36.039004+00:00",
   "teams": [
     {
       "id": 1,
@@ -1978,13 +1978,13 @@
       "id": 4035671,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4035671.png"
     },
-    "Kayshon Boutte": {
-      "id": 4429022,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4429022.png"
-    },
     "Austin Ekeler": {
       "id": 3068267,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3068267.png"
+    },
+    "Kayshon Boutte": {
+      "id": 4429022,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4429022.png"
     },
     "Cam Ward": {
       "id": 4688380,
@@ -2086,6 +2086,10 @@
       "id": 3051876,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3051876.png"
     },
+    "Brandin Cooks": {
+      "id": 16731,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/16731.png"
+    },
     "Tanner McKee": {
       "id": 4685201,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685201.png"
@@ -2093,10 +2097,6 @@
     "Isaiah Davis": {
       "id": 4695404,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4695404.png"
-    },
-    "Brandin Cooks": {
-      "id": 16731,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/16731.png"
     },
     "Joe Mixon": {
       "id": 3116385,
@@ -2166,13 +2166,13 @@
       "id": 4870612,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4870612.png"
     },
-    "Odell Beckham Jr.": {
-      "id": 16733,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/16733.png"
-    },
     "Drew Stevens": {
       "id": 5081335,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/5081335.png"
+    },
+    "Odell Beckham Jr.": {
+      "id": 16733,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/16733.png"
     },
     "Pat Bryant": {
       "id": 4600981,
@@ -2482,6 +2482,10 @@
       "id": 4243371,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4243371.png"
     },
+    "Justin Fields": {
+      "id": 4362887,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4362887.png"
+    },
     "Jaydon Blue": {
       "id": 4685279,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685279.png"
@@ -2497,10 +2501,6 @@
     "Kaden Wetjen": {
       "id": 5081338,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/5081338.png"
-    },
-    "Justin Fields": {
-      "id": 4362887,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4362887.png"
     },
     "Justin Tucker": {
       "id": 15683,
@@ -2990,10 +2990,6 @@
       "id": 4427238,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4427238.png"
     },
-    "DeAndre Hopkins": {
-      "id": 15795,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/15795.png"
-    },
     "Israel Abanikanda": {
       "id": 4429202,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4429202.png"
@@ -3181,6 +3177,10 @@
     "Mitchell Evans": {
       "id": 4683243,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4683243.png"
+    },
+    "DeAndre Hopkins": {
+      "id": 15795,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/15795.png"
     },
     "Dalvin Cook": {
       "id": 3116593,
@@ -4230,10 +4230,6 @@
       "id": 4373030,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4373030.png"
     },
-    "Jonathan Ward": {
-      "id": 4039274,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4039274.png"
-    },
     "Dominic Lovett": {
       "id": 4596439,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4596439.png"
@@ -4929,6 +4925,10 @@
     "Cam Grandy": {
       "id": 4700712,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4700712.png"
+    },
+    "Jonathan Ward": {
+      "id": 4039274,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4039274.png"
     },
     "Marquez Callaway": {
       "id": 4035170,
