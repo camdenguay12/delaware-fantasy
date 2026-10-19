@@ -604,3 +604,14 @@ body{background:linear-gradient(to bottom,#e9671e 0px,#eb6d20 70px,#ef7c2c 185px
  body{background:linear-gradient(to bottom,#e9671e 0px,#eb6d20 60px,#ef7c2c 155px,#f29a52 300px,#f6bc86 490px,#f9d9b6 690px,#fff1df 900px,#fff9f0 1130px)!important}
  body.is-home-page header .home-hero-logo{width:9vw!important;height:12vw!important;margin-left:0!important}
 }
+
+
+/* Season record book */
+.records-intro{font-size:12px;font-weight:800;letter-spacing:.08em;color:#674873;margin:0 0 14px}
+.records-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.record-card,.records-accuracy{background:linear-gradient(135deg,#fff9f1,#f8edf5);border:1px solid #e6cddd;border-radius:15px;padding:20px;box-shadow:0 4px 16px #593c5312}
+.record-card span{display:block;font-size:12px;font-weight:900;letter-spacing:.06em;color:#77577d}
+.record-card strong{display:block;font-size:clamp(23px,3.4vw,40px);color:#ed7024;line-height:1.2;margin:9px 0;overflow-wrap:anywhere}
+.record-card p,.records-accuracy p{margin:0;color:#604c67;line-height:1.5}
+.records-accuracy{margin-top:15px}.records-accuracy h3{margin:0 0 10px;color:#4d3459}
+@media(max-width:750px){.records-grid{grid-template-columns:1fr;gap:9px}.record-card,.records-accuracy{padding:14px}.record-card strong{margin:5px 0}}
