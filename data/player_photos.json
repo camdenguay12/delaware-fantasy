@@ -3715,6 +3715,10 @@
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4887558.png",
     "id": 4887558
   },
+  "emanyjohnson": {
+    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4361437.png",
+    "id": "4361437"
+  },
   "emaridemercado": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4362478.png",
     "id": 4362478
@@ -6214,6 +6218,10 @@
   "joshkaltenberger": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4430114.png",
     "id": "4430114"
+  },
+  "joshkattus": {
+    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4819215.png",
+    "id": "4819215"
   },
   "joshkelly": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4575558.png",
