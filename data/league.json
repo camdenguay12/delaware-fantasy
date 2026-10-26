@@ -1,6 +1,6 @@
 {
   "week": 7,
-  "updatedAt": "2026-10-26T05:20:49.127114+00:00",
+  "updatedAt": "2026-10-26T11:23:55.950348+00:00",
   "teams": [
     {
       "id": 1,
@@ -1982,25 +1982,25 @@
       "id": 4249836,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4249836.png"
     },
-    "AJ Barner": {
-      "id": 4576297,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4576297.png"
-    },
     "Jake Elliott": {
       "id": 3050478,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3050478.png"
+    },
+    "AJ Barner": {
+      "id": 4576297,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4576297.png"
     },
     "Tank Bigsby": {
       "id": 4429013,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4429013.png"
     },
-    "Nick Folk": {
-      "id": 10621,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/10621.png"
-    },
     "Tanner McKee": {
       "id": 4685201,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685201.png"
+    },
+    "Nick Folk": {
+      "id": 10621,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/10621.png"
     },
     "Darnell Washington": {
       "id": 4430802,
@@ -2994,10 +2994,6 @@
       "id": 4035656,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4035656.png"
     },
-    "KeAndre Lambert-Smith": {
-      "id": 4430870,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4430870.png"
-    },
     "Jeremy Ruckert": {
       "id": 4361372,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4361372.png"
@@ -3161,6 +3157,10 @@
     "Ulysses Bentley IV": {
       "id": 4426689,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4426689.png"
+    },
+    "KeAndre Lambert-Smith": {
+      "id": 4430870,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4430870.png"
     },
     "Michael Trigg": {
       "id": 4594749,
