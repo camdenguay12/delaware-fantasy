@@ -1,59 +1,59 @@
 {
-  "week": 6,
+  "week": 7,
   "leaders": [
     {
-      "position": "WR",
-      "name": "Malik Nabers",
-      "playerId": 4595348,
-      "teamId": 14,
-      "points": 28.5,
-      "lineupSlot": "FLEX",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4595348.png"
-    },
-    {
-      "position": "RB",
-      "name": "Christian McCaffrey",
-      "playerId": 3117251,
-      "teamId": 14,
-      "points": 30.7,
-      "lineupSlot": "RB",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3117251.png"
-    },
-    {
-      "position": "K",
-      "name": "Chase McLaughlin",
-      "playerId": 3150744,
-      "teamId": 6,
-      "points": 17.0,
-      "lineupSlot": "K",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3150744.png"
-    },
-    {
       "position": "TE",
-      "name": "Isaiah Likely",
-      "playerId": 4361050,
-      "teamId": 7,
-      "points": 23.9,
+      "name": "Trey McBride",
+      "playerId": 4361307,
+      "teamId": 5,
+      "points": 27.1,
       "lineupSlot": "TE",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4361050.png"
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4361307.png"
     },
     {
       "position": "QB",
-      "name": "Trevor Lawrence",
-      "playerId": 4360310,
+      "name": "Joe Burrow",
+      "playerId": 3915511,
       "teamId": 11,
-      "points": 27.34,
+      "points": 28.88,
       "lineupSlot": "QB",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4360310.png"
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3915511.png"
+    },
+    {
+      "position": "WR",
+      "name": "Zay Flowers",
+      "playerId": 4429615,
+      "teamId": 11,
+      "points": 27.7,
+      "lineupSlot": "WR",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4429615.png"
+    },
+    {
+      "position": "RB",
+      "name": "Tony Pollard",
+      "playerId": 3916148,
+      "teamId": 6,
+      "points": 36.5,
+      "lineupSlot": "FLEX",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3916148.png"
+    },
+    {
+      "position": "K",
+      "name": "Will Reichard",
+      "playerId": 4567104,
+      "teamId": 4,
+      "points": 12.0,
+      "lineupSlot": "K",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4567104.png"
     },
     {
       "position": "D/ST",
-      "name": "Chiefs D/ST",
-      "playerId": -16012,
-      "teamId": 4,
-      "points": 14.0,
+      "name": "Vikings D/ST",
+      "playerId": -16016,
+      "teamId": 5,
+      "points": 11.0,
       "lineupSlot": "D/ST",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/-16012.png"
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/-16016.png"
     }
   ],
   "note": "Only ESPN starting lineup slots are eligible; FLEX players compete in their natural position."

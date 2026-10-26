@@ -1,82 +1,82 @@
 [
   {
-    "week": 6,
+    "week": 7,
     "slot": "QB",
-    "player": "Trevor Lawrence",
-    "points": 27.34,
+    "player": "Joe Burrow",
+    "points": 28.88,
     "teamId": 11,
-    "playerId": 4360310
+    "playerId": 3915511
   },
   {
-    "week": 6,
+    "week": 7,
     "slot": "RB",
-    "player": "Christian McCaffrey",
-    "points": 30.7,
-    "teamId": 14,
-    "playerId": 3117251
-  },
-  {
-    "week": 6,
-    "slot": "RB",
-    "player": "Kenneth Walker III",
-    "points": 27.9,
-    "teamId": 1,
-    "playerId": 4567048
-  },
-  {
-    "week": 6,
-    "slot": "WR",
-    "player": "Malik Nabers",
-    "points": 28.5,
-    "teamId": 14,
-    "playerId": 4595348
-  },
-  {
-    "week": 6,
-    "slot": "WR",
-    "player": "Tre Tucker",
-    "points": 26.7,
-    "teamId": 12,
-    "playerId": 4428718
-  },
-  {
-    "week": 6,
-    "slot": "TE",
-    "player": "Isaiah Likely",
-    "points": 23.9,
-    "teamId": 7,
-    "playerId": 4361050
-  },
-  {
-    "week": 6,
-    "slot": "FLEX",
-    "player": "Germie Bernard",
-    "points": 25.7,
-    "teamId": 10,
-    "playerId": 4685261
-  },
-  {
-    "week": 6,
-    "slot": "FLEX",
-    "player": "Jaxon Smith-Njigba",
-    "points": 25.4,
-    "teamId": 10,
-    "playerId": 4430878
-  },
-  {
-    "week": 6,
-    "slot": "D/ST",
-    "player": "Chiefs D/ST",
-    "points": 14.0,
-    "teamId": 4,
-    "playerId": -16012
-  },
-  {
-    "week": 6,
-    "slot": "K",
-    "player": "Chase McLaughlin",
-    "points": 17.0,
+    "player": "Tony Pollard",
+    "points": 36.5,
     "teamId": 6,
-    "playerId": 3150744
+    "playerId": 3916148
+  },
+  {
+    "week": 7,
+    "slot": "RB",
+    "player": "Bucky Irving",
+    "points": 24.0,
+    "teamId": 6,
+    "playerId": 4596448
+  },
+  {
+    "week": 7,
+    "slot": "WR",
+    "player": "Zay Flowers",
+    "points": 27.7,
+    "teamId": 11,
+    "playerId": 4429615
+  },
+  {
+    "week": 7,
+    "slot": "WR",
+    "player": "Tee Higgins",
+    "points": 26.8,
+    "teamId": 2,
+    "playerId": 4239993
+  },
+  {
+    "week": 7,
+    "slot": "TE",
+    "player": "Trey McBride",
+    "points": 27.1,
+    "teamId": 5,
+    "playerId": 4361307
+  },
+  {
+    "week": 7,
+    "slot": "FLEX",
+    "player": "Jameson Williams",
+    "points": 26.1,
+    "teamId": 1,
+    "playerId": 4426388
+  },
+  {
+    "week": 7,
+    "slot": "FLEX",
+    "player": "Amon-Ra St. Brown",
+    "points": 24.2,
+    "teamId": 13,
+    "playerId": 4374302
+  },
+  {
+    "week": 7,
+    "slot": "D/ST",
+    "player": "Vikings D/ST",
+    "points": 11.0,
+    "teamId": 5,
+    "playerId": -16016
+  },
+  {
+    "week": 7,
+    "slot": "K",
+    "player": "Will Reichard",
+    "points": 12.0,
+    "teamId": 4,
+    "playerId": 4567104
   }
 ]
