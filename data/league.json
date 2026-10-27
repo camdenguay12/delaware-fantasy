@@ -1,6 +1,6 @@
 {
   "week": 7,
-  "updatedAt": "2026-10-27T01:12:55.159379+00:00",
+  "updatedAt": "2026-10-27T06:21:19.529280+00:00",
   "teams": [
     {
       "id": 1,
@@ -129,8 +129,8 @@
       "awayId": 7,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 110.46,
-      "awayProjected": 73.06,
+      "homeProjected": 116.18,
+      "awayProjected": 76.2,
       "status": "current"
     },
     {
@@ -148,7 +148,7 @@
       "homeScore": 0.0,
       "awayScore": 0.0,
       "homeProjected": 127.82,
-      "awayProjected": 110.34,
+      "awayProjected": 99.32,
       "status": "current"
     },
     {
@@ -157,7 +157,7 @@
       "homeScore": 0.0,
       "awayScore": 0.0,
       "homeProjected": 153.64,
-      "awayProjected": 82.83,
+      "awayProjected": 90.32,
       "status": "current"
     },
     {
@@ -165,7 +165,7 @@
       "awayId": 6,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 152.41,
+      "homeProjected": 156.38,
       "awayProjected": 148.4,
       "status": "current"
     },
@@ -175,7 +175,7 @@
       "homeScore": 0.0,
       "awayScore": 0.0,
       "homeProjected": 111.52,
-      "awayProjected": 137.99,
+      "awayProjected": 135.62,
       "status": "current"
     }
   ],
@@ -546,8 +546,8 @@
       "awayId": 7,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 110.46,
-      "awayProjected": 73.06,
+      "homeProjected": 116.18,
+      "awayProjected": 76.2,
       "status": "current"
     },
     {
@@ -567,7 +567,7 @@
       "homeScore": 0.0,
       "awayScore": 0.0,
       "homeProjected": 127.82,
-      "awayProjected": 110.34,
+      "awayProjected": 99.32,
       "status": "current"
     },
     {
@@ -577,7 +577,7 @@
       "homeScore": 0.0,
       "awayScore": 0.0,
       "homeProjected": 153.64,
-      "awayProjected": 82.83,
+      "awayProjected": 90.32,
       "status": "current"
     },
     {
@@ -586,7 +586,7 @@
       "awayId": 6,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 152.41,
+      "homeProjected": 156.38,
       "awayProjected": 148.4,
       "status": "current"
     },
@@ -597,7 +597,7 @@
       "homeScore": 0.0,
       "awayScore": 0.0,
       "homeProjected": 111.52,
-      "awayProjected": 137.99,
+      "awayProjected": 135.62,
       "status": "current"
     },
     {
