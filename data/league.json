@@ -1,6 +1,6 @@
 {
   "week": 7,
-  "updatedAt": "2026-10-26T21:53:19.423821+00:00",
+  "updatedAt": "2026-10-27T01:12:55.159379+00:00",
   "teams": [
     {
       "id": 1,
@@ -129,8 +129,8 @@
       "awayId": 7,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 109.62,
-      "awayProjected": 70.35,
+      "homeProjected": 110.46,
+      "awayProjected": 73.06,
       "status": "current"
     },
     {
@@ -148,7 +148,7 @@
       "homeScore": 0.0,
       "awayScore": 0.0,
       "homeProjected": 127.82,
-      "awayProjected": 109.67,
+      "awayProjected": 110.34,
       "status": "current"
     },
     {
@@ -157,7 +157,7 @@
       "homeScore": 0.0,
       "awayScore": 0.0,
       "homeProjected": 153.64,
-      "awayProjected": 89.36,
+      "awayProjected": 82.83,
       "status": "current"
     },
     {
@@ -165,7 +165,7 @@
       "awayId": 6,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 150.51,
+      "homeProjected": 152.41,
       "awayProjected": 148.4,
       "status": "current"
     },
@@ -175,7 +175,7 @@
       "homeScore": 0.0,
       "awayScore": 0.0,
       "homeProjected": 111.52,
-      "awayProjected": 128.93,
+      "awayProjected": 137.99,
       "status": "current"
     }
   ],
@@ -546,8 +546,8 @@
       "awayId": 7,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 109.62,
-      "awayProjected": 70.35,
+      "homeProjected": 110.46,
+      "awayProjected": 73.06,
       "status": "current"
     },
     {
@@ -567,7 +567,7 @@
       "homeScore": 0.0,
       "awayScore": 0.0,
       "homeProjected": 127.82,
-      "awayProjected": 109.67,
+      "awayProjected": 110.34,
       "status": "current"
     },
     {
@@ -577,7 +577,7 @@
       "homeScore": 0.0,
       "awayScore": 0.0,
       "homeProjected": 153.64,
-      "awayProjected": 89.36,
+      "awayProjected": 82.83,
       "status": "current"
     },
     {
@@ -586,7 +586,7 @@
       "awayId": 6,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 150.51,
+      "homeProjected": 152.41,
       "awayProjected": 148.4,
       "status": "current"
     },
@@ -597,7 +597,7 @@
       "homeScore": 0.0,
       "awayScore": 0.0,
       "homeProjected": 111.52,
-      "awayProjected": 128.93,
+      "awayProjected": 137.99,
       "status": "current"
     },
     {
@@ -2298,13 +2298,13 @@
       "id": 4360797,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4360797.png"
     },
-    "Jacob Saylors": {
-      "id": 4383429,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4383429.png"
-    },
     "Tyler Goodson": {
       "id": 4429676,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4429676.png"
+    },
+    "Jacob Saylors": {
+      "id": 4383429,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4383429.png"
     },
     "Tez Johnson": {
       "id": 4608810,
@@ -2818,6 +2818,10 @@
       "id": 3127310,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3127310.png"
     },
+    "Camden Brown": {
+      "id": 4808759,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4808759.png"
+    },
     "Olamide Zaccheaus": {
       "id": 3917914,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3917914.png"
@@ -2890,9 +2894,9 @@
       "id": 3043234,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3043234.png"
     },
-    "Camden Brown": {
-      "id": 4808759,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4808759.png"
+    "Elijah Moore": {
+      "id": 4372414,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4372414.png"
     },
     "Nikko Remigio": {
       "id": 4372716,
@@ -2941,10 +2945,6 @@
     "CJ Daniels": {
       "id": 4605951,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4605951.png"
-    },
-    "Elijah Moore": {
-      "id": 4372414,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4372414.png"
     },
     "Calvin Austin III": {
       "id": 4243389,
