@@ -1835,6 +1835,10 @@
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4368113.png",
     "id": "4368113"
   },
+  "charlieheck": {
+    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3895840.png",
+    "id": "3895840"
+  },
   "charliejones": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4257188.png",
     "id": 4257188
@@ -6366,6 +6370,10 @@
   "joshuafarmer": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4611993.png",
     "id": "4611993"
+  },
+  "joshuagray": {
+    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4570485.png",
+    "id": "4570485"
   },
   "joshuajosephs": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/5081392.png",
