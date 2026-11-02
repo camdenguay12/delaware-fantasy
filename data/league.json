@@ -1,6 +1,6 @@
 {
   "week": 8,
-  "updatedAt": "2026-11-02T02:31:15.615761+00:00",
+  "updatedAt": "2026-11-02T09:59:11.901301+00:00",
   "teams": [
     {
       "id": 1,
@@ -130,7 +130,7 @@
       "homeScore": 0.0,
       "awayScore": 0.0,
       "homeProjected": 60.3,
-      "awayProjected": 119.18,
+      "awayProjected": 116.58,
       "status": "current"
     },
     {
@@ -138,7 +138,7 @@
       "awayId": 5,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 92.32,
+      "homeProjected": 90.82,
       "awayProjected": 148.34,
       "status": "current"
     },
@@ -147,7 +147,7 @@
       "awayId": 10,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 118.44,
+      "homeProjected": 119.26,
       "awayProjected": 137.21,
       "status": "current"
     },
@@ -157,7 +157,7 @@
       "homeScore": 0.0,
       "awayScore": 0.0,
       "homeProjected": 117.1,
-      "awayProjected": 139.93,
+      "awayProjected": 146.18,
       "status": "current"
     },
     {
@@ -165,7 +165,7 @@
       "awayId": 1,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 176.63,
+      "homeProjected": 169.88,
       "awayProjected": 107.31,
       "status": "current"
     },
@@ -175,7 +175,7 @@
       "homeScore": 0.0,
       "awayScore": 0.0,
       "homeProjected": 109.94,
-      "awayProjected": 139.53,
+      "awayProjected": 137.23,
       "status": "current"
     }
   ],
@@ -607,7 +607,7 @@
       "homeScore": 0.0,
       "awayScore": 0.0,
       "homeProjected": 60.3,
-      "awayProjected": 119.18,
+      "awayProjected": 116.58,
       "status": "current"
     },
     {
@@ -616,7 +616,7 @@
       "awayId": 5,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 92.32,
+      "homeProjected": 90.82,
       "awayProjected": 148.34,
       "status": "current"
     },
@@ -626,7 +626,7 @@
       "awayId": 10,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 118.44,
+      "homeProjected": 119.26,
       "awayProjected": 137.21,
       "status": "current"
     },
@@ -637,7 +637,7 @@
       "homeScore": 0.0,
       "awayScore": 0.0,
       "homeProjected": 117.1,
-      "awayProjected": 139.93,
+      "awayProjected": 146.18,
       "status": "current"
     },
     {
@@ -646,7 +646,7 @@
       "awayId": 1,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 176.63,
+      "homeProjected": 169.88,
       "awayProjected": 107.31,
       "status": "current"
     },
@@ -657,7 +657,7 @@
       "homeScore": 0.0,
       "awayScore": 0.0,
       "homeProjected": 109.94,
-      "awayProjected": 139.53,
+      "awayProjected": 137.23,
       "status": "current"
     },
     {
@@ -2746,6 +2746,10 @@
       "id": 4242392,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4242392.png"
     },
+    "CJ Donaldson": {
+      "id": 5081999,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/5081999.png"
+    },
     "Sam Howell": {
       "id": 4426875,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4426875.png"
@@ -2773,10 +2777,6 @@
     "Chris Brazzell II": {
       "id": 5091739,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/5091739.png"
-    },
-    "CJ Donaldson": {
-      "id": 5081999,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/5081999.png"
     },
     "Cade Klubnik": {
       "id": 4685413,
