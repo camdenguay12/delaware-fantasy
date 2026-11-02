@@ -1,6 +1,6 @@
 {
   "week": 8,
-  "updatedAt": "2026-11-02T09:59:11.901301+00:00",
+  "updatedAt": "2026-11-02T20:14:19.713648+00:00",
   "teams": [
     {
       "id": 1,
@@ -1946,25 +1946,25 @@
       "id": 2973405,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2973405.png"
     },
-    "Jalen McMillan": {
-      "id": 4430834,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4430834.png"
-    },
     "Corey Kiner": {
       "id": 4431431,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431431.png"
+    },
+    "Jalen McMillan": {
+      "id": 4430834,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4430834.png"
     },
     "Jerry Jeudy": {
       "id": 4241463,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241463.png"
     },
-    "Jaylin Noel": {
-      "id": 4586312,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4586312.png"
-    },
     "Cooper Kupp": {
       "id": 2977187,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2977187.png"
+    },
+    "Jaylin Noel": {
+      "id": 4586312,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4586312.png"
     },
     "Bam Knight": {
       "id": 4427728,
@@ -2250,21 +2250,21 @@
       "id": 3116385,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3116385.png"
     },
-    "Demarcus Robinson": {
-      "id": 3043116,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3043116.png"
-    },
     "Tory Horton": {
       "id": 4597703,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4597703.png"
     },
-    "Brandin Cooks": {
-      "id": 16731,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/16731.png"
+    "Demarcus Robinson": {
+      "id": 3043116,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3043116.png"
     },
     "Cyrus Allen": {
       "id": 4912218,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4912218.png"
+    },
+    "Brandin Cooks": {
+      "id": 16731,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/16731.png"
     },
     "Darnell Mooney": {
       "id": 4040655,
@@ -2322,13 +2322,13 @@
       "id": 16339,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/16339.png"
     },
-    "Tommy Tremble": {
-      "id": 4372780,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4372780.png"
-    },
     "Elic Ayomanor": {
       "id": 4883647,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4883647.png"
+    },
+    "Tommy Tremble": {
+      "id": 4372780,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4372780.png"
     },
     "Zavion Thomas": {
       "id": 4869748,
@@ -2654,6 +2654,10 @@
       "id": 4257188,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4257188.png"
     },
+    "Sam Roush": {
+      "id": 4685504,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685504.png"
+    },
     "Greg Dortch": {
       "id": 4037235,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4037235.png"
@@ -2669,10 +2673,6 @@
     "Luke Schoonmaker": {
       "id": 4372096,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4372096.png"
-    },
-    "Sam Roush": {
-      "id": 4685504,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685504.png"
     },
     "Erick All Jr.": {
       "id": 4427834,
@@ -2746,10 +2746,6 @@
       "id": 4242392,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4242392.png"
     },
-    "CJ Donaldson": {
-      "id": 5081999,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/5081999.png"
-    },
     "Sam Howell": {
       "id": 4426875,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4426875.png"
@@ -2777,6 +2773,10 @@
     "Chris Brazzell II": {
       "id": 5091739,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/5091739.png"
+    },
+    "CJ Donaldson": {
+      "id": 5081999,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/5081999.png"
     },
     "Cade Klubnik": {
       "id": 4685413,
@@ -2914,10 +2914,6 @@
       "id": 4613104,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4613104.png"
     },
-    "Tim Patrick": {
-      "id": 3134353,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3134353.png"
-    },
     "DeeJay Dallas": {
       "id": 4240631,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4240631.png"
@@ -2966,6 +2962,10 @@
       "id": 2576581,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2576581.png"
     },
+    "Max Bredeson": {
+      "id": 4878695,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4878695.png"
+    },
     "J. Michael Sturdivant": {
       "id": 4635009,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4635009.png"
@@ -2985,6 +2985,10 @@
     "Reggie Gilliam": {
       "id": 4039505,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4039505.png"
+    },
+    "Tim Patrick": {
+      "id": 3134353,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3134353.png"
     },
     "Ben Skowronek": {
       "id": 4035656,
@@ -3066,17 +3070,9 @@
       "id": 4690070,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4690070.png"
     },
-    "Marquez Valdes-Scantling": {
-      "id": 3051738,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3051738.png"
-    },
     "Britain Covey": {
       "id": 3926231,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3926231.png"
-    },
-    "Max Bredeson": {
-      "id": 4878695,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4878695.png"
     },
     "Michael Burton": {
       "id": 2515270,
@@ -3265,6 +3261,10 @@
     "Derius Davis": {
       "id": 4362477,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4362477.png"
+    },
+    "Marquez Valdes-Scantling": {
+      "id": 3051738,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3051738.png"
     },
     "David Moore": {
       "id": 4212909,
@@ -3882,6 +3882,10 @@
       "id": 3061612,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3061612.png"
     },
+    "D'Onta Foreman": {
+      "id": 3125116,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3125116.png"
+    },
     "Taylor Heinicke": {
       "id": 2565969,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2565969.png"
@@ -3933,6 +3937,10 @@
     "SaRodorick Thompson Jr.": {
       "id": 4362162,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4362162.png"
+    },
+    "Nelson Agholor": {
+      "id": 2971618,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2971618.png"
     },
     "Jarquez Hunter": {
       "id": 4710341,
@@ -4085,6 +4093,10 @@
     "Gary Jennings": {
       "id": 3916071,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3916071.png"
+    },
+    "Josh Reynolds": {
+      "id": 3115306,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3115306.png"
     },
     "Terrace Marshall Jr.": {
       "id": 4362630,
@@ -4466,10 +4478,6 @@
       "id": 4035676,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4035676.png"
     },
-    "Eric Tomlinson": {
-      "id": 2511973,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2511973.png"
-    },
     "Chris Myarick": {
       "id": 3138744,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3138744.png"
@@ -4533,6 +4541,10 @@
     "Zack Kuntz": {
       "id": 4361417,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4361417.png"
+    },
+    "Jase McClellan": {
+      "id": 4429001,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4429001.png"
     },
     "Elijah Dotson": {
       "id": 4248909,
@@ -4726,10 +4738,6 @@
       "id": 4362019,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4362019.png"
     },
-    "D'Onta Foreman": {
-      "id": 3125116,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3125116.png"
-    },
     "Jalen Virgil": {
       "id": 4036448,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4036448.png"
@@ -4765,10 +4773,6 @@
     "Will Dissly": {
       "id": 3127292,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3127292.png"
-    },
-    "Nelson Agholor": {
-      "id": 2971618,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2971618.png"
     },
     "Erik Ezukanma": {
       "id": 4362186,
@@ -4861,10 +4865,6 @@
     "Bryce Oliver": {
       "id": 4362617,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4362617.png"
-    },
-    "Josh Reynolds": {
-      "id": 3115306,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3115306.png"
     },
     "Irv Smith Jr.": {
       "id": 4040980,
@@ -5042,6 +5042,10 @@
       "id": 3128452,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3128452.png"
     },
+    "Eric Tomlinson": {
+      "id": 2511973,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2511973.png"
+    },
     "Rakim Jarrett": {
       "id": 4429006,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4429006.png"
@@ -5069,10 +5073,6 @@
     "Trenton Irwin": {
       "id": 3931391,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3931391.png"
-    },
-    "Jase McClellan": {
-      "id": 4429001,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4429001.png"
     },
     "Trent Taylor": {
       "id": 3040569,
