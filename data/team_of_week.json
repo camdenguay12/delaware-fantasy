@@ -1,59 +1,59 @@
 {
-  "week": 7,
+  "week": 8,
   "leaders": [
     {
-      "position": "TE",
-      "name": "Trey McBride",
-      "playerId": 4361307,
-      "teamId": 5,
-      "points": 27.1,
-      "lineupSlot": "TE",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4361307.png"
+      "position": "WR",
+      "name": "Tee Higgins",
+      "playerId": 4239993,
+      "teamId": 2,
+      "points": 37.5,
+      "lineupSlot": "FLEX",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4239993.png"
+    },
+    {
+      "position": "RB",
+      "name": "Bhayshul Tuten",
+      "playerId": 4882093,
+      "teamId": 2,
+      "points": 29.9,
+      "lineupSlot": "FLEX",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4882093.png"
     },
     {
       "position": "QB",
       "name": "Joe Burrow",
       "playerId": 3915511,
       "teamId": 11,
-      "points": 28.88,
+      "points": 39.48,
       "lineupSlot": "QB",
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3915511.png"
     },
     {
-      "position": "WR",
-      "name": "Jaxon Smith-Njigba",
-      "playerId": 4430878,
-      "teamId": 10,
-      "points": 31.3,
-      "lineupSlot": "WR",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4430878.png"
-    },
-    {
-      "position": "RB",
-      "name": "Tony Pollard",
-      "playerId": 3916148,
-      "teamId": 6,
-      "points": 36.5,
-      "lineupSlot": "FLEX",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3916148.png"
+      "position": "TE",
+      "name": "Brock Bowers",
+      "playerId": 4432665,
+      "teamId": 4,
+      "points": 28.2,
+      "lineupSlot": "TE",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4432665.png"
     },
     {
       "position": "K",
-      "name": "Brandon Aubrey",
-      "playerId": 3953687,
-      "teamId": 7,
-      "points": 14.0,
+      "name": "Tyler Bass",
+      "playerId": 3917232,
+      "teamId": 5,
+      "points": 16.0,
       "lineupSlot": "K",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3953687.png"
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3917232.png"
     },
     {
       "position": "D/ST",
-      "name": "Vikings D/ST",
-      "playerId": -16016,
-      "teamId": 5,
-      "points": 11.0,
+      "name": "Jaguars D/ST",
+      "playerId": -16030,
+      "teamId": 2,
+      "points": 21.0,
       "lineupSlot": "D/ST",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/-16016.png"
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/-16030.png"
     }
   ],
   "note": "Only ESPN starting lineup slots are eligible; FLEX players compete in their natural position."

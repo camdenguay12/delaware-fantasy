@@ -1,82 +1,82 @@
 [
   {
-    "week": 7,
+    "week": 8,
     "slot": "QB",
     "player": "Joe Burrow",
-    "points": 28.88,
+    "points": 39.48,
     "teamId": 11,
     "playerId": 3915511
   },
   {
-    "week": 7,
+    "week": 8,
+    "slot": "RB",
+    "player": "Bhayshul Tuten",
+    "points": 29.9,
+    "teamId": 2,
+    "playerId": 4882093
+  },
+  {
+    "week": 8,
     "slot": "RB",
     "player": "Tony Pollard",
-    "points": 36.5,
+    "points": 28.7,
     "teamId": 6,
     "playerId": 3916148
   },
   {
-    "week": 7,
-    "slot": "RB",
-    "player": "Bucky Irving",
-    "points": 24.0,
-    "teamId": 6,
-    "playerId": 4596448
-  },
-  {
-    "week": 7,
+    "week": 8,
     "slot": "WR",
-    "player": "Jaxon Smith-Njigba",
-    "points": 31.3,
-    "teamId": 10,
-    "playerId": 4430878
-  },
-  {
-    "week": 7,
-    "slot": "WR",
-    "player": "Zay Flowers",
-    "points": 27.7,
-    "teamId": 11,
-    "playerId": 4429615
-  },
-  {
-    "week": 7,
-    "slot": "TE",
-    "player": "Trey McBride",
-    "points": 27.1,
-    "teamId": 5,
-    "playerId": 4361307
-  },
-  {
-    "week": 7,
-    "slot": "FLEX",
     "player": "Tee Higgins",
-    "points": 26.8,
+    "points": 37.5,
     "teamId": 2,
     "playerId": 4239993
   },
   {
-    "week": 7,
-    "slot": "FLEX",
-    "player": "Jameson Williams",
-    "points": 26.1,
-    "teamId": 1,
-    "playerId": 4426388
-  },
-  {
-    "week": 7,
-    "slot": "D/ST",
-    "player": "Vikings D/ST",
-    "points": 11.0,
+    "week": 8,
+    "slot": "WR",
+    "player": "Ja'Marr Chase",
+    "points": 31.1,
     "teamId": 5,
-    "playerId": -16016
+    "playerId": 4362628
   },
   {
-    "week": 7,
-    "slot": "K",
-    "player": "Brandon Aubrey",
-    "points": 14.0,
+    "week": 8,
+    "slot": "TE",
+    "player": "Brock Bowers",
+    "points": 28.2,
+    "teamId": 4,
+    "playerId": 4432665
+  },
+  {
+    "week": 8,
+    "slot": "FLEX",
+    "player": "Michael Wilson",
+    "points": 26.8,
+    "teamId": 14,
+    "playerId": 4360761
+  },
+  {
+    "week": 8,
+    "slot": "FLEX",
+    "player": "Puka Nacua",
+    "points": 25.0,
     "teamId": 7,
-    "playerId": 3953687
+    "playerId": 4426515
+  },
+  {
+    "week": 8,
+    "slot": "D/ST",
+    "player": "Jaguars D/ST",
+    "points": 21.0,
+    "teamId": 2,
+    "playerId": -16030
+  },
+  {
+    "week": 8,
+    "slot": "K",
+    "player": "Tyler Bass",
+    "points": 16.0,
+    "teamId": 5,
+    "playerId": 3917232
   }
 ]
