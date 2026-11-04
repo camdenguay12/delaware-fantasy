@@ -519,6 +519,10 @@
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3049698.png",
     "id": 3049698
   },
+  "anthonygoodlow": {
+    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4372378.png",
+    "id": "4372378"
+  },
   "anthonygould": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4429684.png",
     "id": 4429684
@@ -6174,6 +6178,10 @@
   "jordanmeredith": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4076803.png",
     "id": "4076803"
+  },
+  "jordanmiller": {
+    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4362524.png",
+    "id": "4362524"
   },
   "jordanmims": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4243004.png",
