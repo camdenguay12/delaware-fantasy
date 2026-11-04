@@ -2599,6 +2599,10 @@
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3051909.png",
     "id": 3051909
   },
+  "danielekuale": {
+    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3052059.png",
+    "id": "3052059"
+  },
   "danielfaalele": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4360964.png",
     "id": "4360964"
@@ -2622,6 +2626,10 @@
   "danielscott": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4242415.png",
     "id": "4242415"
+  },
+  "danielsobkowicz": {
+    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4878293.png",
+    "id": "4878293"
   },
   "danielthomas": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4035505.png",
@@ -5134,6 +5142,10 @@
   "jalonwalker": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685597.png",
     "id": "4685597"
+  },
+  "jalynarmourdavis": {
+    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4372017.png",
+    "id": "4372017"
   },
   "jalynholmes": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3121414.png",
