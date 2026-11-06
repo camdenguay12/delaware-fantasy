@@ -2159,6 +2159,10 @@
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4012556.png",
     "id": 4012556
   },
+  "cjhanson": {
+    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4571810.png",
+    "id": "4571810"
+  },
   "cjhenderson": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4240596.png",
     "id": "4240596"
@@ -5298,6 +5302,10 @@
   "jamiensherwood": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4361331.png",
     "id": "4361331"
+  },
+  "jamiesheriff": {
+    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4685984.png",
+    "id": "4685984"
   },
   "jamisoncrowder": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2576716.png",
