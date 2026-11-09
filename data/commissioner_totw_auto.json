@@ -1,82 +1,82 @@
 [
   {
-    "week": 8,
+    "week": 9,
     "slot": "QB",
     "player": "Joe Burrow",
-    "points": 39.48,
+    "points": 29.54,
     "teamId": 11,
     "playerId": 3915511
   },
   {
-    "week": 8,
+    "week": 9,
     "slot": "RB",
-    "player": "Bhayshul Tuten",
-    "points": 29.9,
-    "teamId": 2,
-    "playerId": 4882093
+    "player": "Kenneth Walker III",
+    "points": 36.3,
+    "teamId": 1,
+    "playerId": 4567048
   },
   {
-    "week": 8,
+    "week": 9,
     "slot": "RB",
-    "player": "Tony Pollard",
-    "points": 28.7,
-    "teamId": 6,
-    "playerId": 3916148
+    "player": "Bijan Robinson",
+    "points": 26.7,
+    "teamId": 1,
+    "playerId": 4430807
   },
   {
-    "week": 8,
+    "week": 9,
     "slot": "WR",
-    "player": "Tee Higgins",
-    "points": 37.5,
+    "player": "Puka Nacua",
+    "points": 35.0,
+    "teamId": 7,
+    "playerId": 4426515
+  },
+  {
+    "week": 9,
+    "slot": "WR",
+    "player": "CeeDee Lamb",
+    "points": 33.5,
+    "teamId": 11,
+    "playerId": 4241389
+  },
+  {
+    "week": 9,
+    "slot": "TE",
+    "player": "Darren Waller",
+    "points": 23.0,
     "teamId": 2,
-    "playerId": 4239993
+    "playerId": 2576925
   },
   {
-    "week": 8,
-    "slot": "WR",
+    "week": 9,
+    "slot": "FLEX",
+    "player": "Matthew Golden",
+    "points": 32.4,
+    "teamId": 10,
+    "playerId": 4701936
+  },
+  {
+    "week": 9,
+    "slot": "FLEX",
     "player": "Ja'Marr Chase",
-    "points": 31.1,
+    "points": 31.5,
     "teamId": 5,
     "playerId": 4362628
   },
   {
-    "week": 8,
-    "slot": "TE",
-    "player": "Brock Bowers",
-    "points": 28.2,
-    "teamId": 4,
-    "playerId": 4432665
-  },
-  {
-    "week": 8,
-    "slot": "FLEX",
-    "player": "D'Andre Swift",
-    "points": 27.9,
-    "teamId": 10,
-    "playerId": 4259545
-  },
-  {
-    "week": 8,
-    "slot": "FLEX",
-    "player": "Michael Wilson",
-    "points": 26.8,
-    "teamId": 14,
-    "playerId": 4360761
-  },
-  {
-    "week": 8,
+    "week": 9,
     "slot": "D/ST",
-    "player": "Jaguars D/ST",
-    "points": 21.0,
-    "teamId": 2,
-    "playerId": -16030
+    "player": "49ers D/ST",
+    "points": 19.0,
+    "teamId": 11,
+    "playerId": -16025
   },
   {
-    "week": 8,
+    "week": 9,
     "slot": "K",
-    "player": "Tyler Bass",
-    "points": 16.0,
-    "teamId": 5,
-    "playerId": 3917232
+    "player": "Cam Little",
+    "points": 17.0,
+    "teamId": 1,
+    "playerId": 4686361
   }
 ]

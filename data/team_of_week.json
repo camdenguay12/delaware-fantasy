@@ -1,59 +1,59 @@
 {
-  "week": 8,
+  "week": 9,
   "leaders": [
     {
-      "position": "WR",
-      "name": "Tee Higgins",
-      "playerId": 4239993,
-      "teamId": 2,
-      "points": 37.5,
-      "lineupSlot": "FLEX",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4239993.png"
+      "position": "RB",
+      "name": "Kenneth Walker III",
+      "playerId": 4567048,
+      "teamId": 1,
+      "points": 36.3,
+      "lineupSlot": "RB",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4567048.png"
     },
     {
-      "position": "RB",
-      "name": "Bhayshul Tuten",
-      "playerId": 4882093,
+      "position": "WR",
+      "name": "Puka Nacua",
+      "playerId": 4426515,
+      "teamId": 7,
+      "points": 35.0,
+      "lineupSlot": "WR",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4426515.png"
+    },
+    {
+      "position": "TE",
+      "name": "Darren Waller",
+      "playerId": 2576925,
       "teamId": 2,
-      "points": 29.9,
-      "lineupSlot": "FLEX",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4882093.png"
+      "points": 23.0,
+      "lineupSlot": "TE",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2576925.png"
     },
     {
       "position": "QB",
       "name": "Joe Burrow",
       "playerId": 3915511,
       "teamId": 11,
-      "points": 39.48,
+      "points": 29.54,
       "lineupSlot": "QB",
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3915511.png"
     },
     {
-      "position": "TE",
-      "name": "Brock Bowers",
-      "playerId": 4432665,
-      "teamId": 4,
-      "points": 28.2,
-      "lineupSlot": "TE",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4432665.png"
+      "position": "D/ST",
+      "name": "49ers D/ST",
+      "playerId": -16025,
+      "teamId": 11,
+      "points": 19.0,
+      "lineupSlot": "D/ST",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/-16025.png"
     },
     {
       "position": "K",
-      "name": "Tyler Bass",
-      "playerId": 3917232,
-      "teamId": 5,
-      "points": 16.0,
+      "name": "Cam Little",
+      "playerId": 4686361,
+      "teamId": 1,
+      "points": 17.0,
       "lineupSlot": "K",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3917232.png"
-    },
-    {
-      "position": "D/ST",
-      "name": "Jaguars D/ST",
-      "playerId": -16030,
-      "teamId": 2,
-      "points": 21.0,
-      "lineupSlot": "D/ST",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/-16030.png"
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4686361.png"
     }
   ],
   "note": "Only ESPN starting lineup slots are eligible; FLEX players compete in their natural position."
