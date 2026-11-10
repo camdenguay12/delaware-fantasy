@@ -2991,6 +2991,10 @@
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4683151.png",
     "id": 4683151
   },
+  "delarrinturneryell": {
+    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4360287.png",
+    "id": "4360287"
+  },
   "dellpettus": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4428232.png",
     "id": "4428232"
@@ -4366,6 +4370,10 @@
   "gusedwards": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3051926.png",
     "id": 3051926
+  },
+  "gushartwig": {
+    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4432237.png",
+    "id": "4432237"
   },
   "haroldfanninjr": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/5083076.png",
@@ -7014,6 +7022,10 @@
   "kennydysonjr": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4574008.png",
     "id": "4574008"
+  },
+  "kennyfletcherjr": {
+    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4746099.png",
+    "id": "4746099"
   },
   "kennygainwell": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4371733.png",
