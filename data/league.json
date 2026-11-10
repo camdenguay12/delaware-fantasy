@@ -1,6 +1,6 @@
 {
   "week": 9,
-  "updatedAt": "2026-11-09T20:44:31.630344+00:00",
+  "updatedAt": "2026-11-10T02:58:21.488893+00:00",
   "teams": [
     {
       "id": 1,
@@ -129,8 +129,8 @@
       "awayId": 7,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 112.57,
-      "awayProjected": 118.39,
+      "homeProjected": 109.28,
+      "awayProjected": 120.73,
       "status": "current"
     },
     {
@@ -138,8 +138,8 @@
       "awayId": 15,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 96.85,
-      "awayProjected": 117.63,
+      "homeProjected": 95.21,
+      "awayProjected": 105.95,
       "status": "current"
     },
     {
@@ -147,8 +147,8 @@
       "awayId": 6,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 126.7,
-      "awayProjected": 121.11,
+      "homeProjected": 127.25,
+      "awayProjected": 117.85,
       "status": "current"
     },
     {
@@ -165,8 +165,8 @@
       "awayId": 12,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 153.32,
-      "awayProjected": 86.4,
+      "homeProjected": 156.2,
+      "awayProjected": 84.3,
       "status": "current"
     },
     {
@@ -666,8 +666,8 @@
       "awayId": 7,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 112.57,
-      "awayProjected": 118.39,
+      "homeProjected": 109.28,
+      "awayProjected": 120.73,
       "status": "current"
     },
     {
@@ -676,8 +676,8 @@
       "awayId": 15,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 96.85,
-      "awayProjected": 117.63,
+      "homeProjected": 95.21,
+      "awayProjected": 105.95,
       "status": "current"
     },
     {
@@ -686,8 +686,8 @@
       "awayId": 6,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 126.7,
-      "awayProjected": 121.11,
+      "homeProjected": 127.25,
+      "awayProjected": 117.85,
       "status": "current"
     },
     {
@@ -706,8 +706,8 @@
       "awayId": 12,
       "homeScore": 0.0,
       "awayScore": 0.0,
-      "homeProjected": 153.32,
-      "awayProjected": 86.4,
+      "homeProjected": 156.2,
+      "awayProjected": 84.3,
       "status": "current"
     },
     {
@@ -1934,13 +1934,13 @@
       "id": 2573401,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2573401.png"
     },
-    "Treylon Burks": {
-      "id": 4567156,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4567156.png"
-    },
     "Darius Cooper": {
       "id": 4715355,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4715355.png"
+    },
+    "Treylon Burks": {
+      "id": 4567156,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4567156.png"
     },
     "Audric Estime": {
       "id": 4569682,
@@ -2058,13 +2058,13 @@
       "id": 4608810,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4608810.png"
     },
-    "Andre Szmyt": {
-      "id": 4258620,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4258620.png"
-    },
     "Cam Ward": {
       "id": 4688380,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4688380.png"
+    },
+    "Andre Szmyt": {
+      "id": 4258620,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4258620.png"
     },
     "Ted Hurst III": {
       "id": 5220680,
@@ -2262,13 +2262,13 @@
       "id": 4431487,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431487.png"
     },
-    "Kaleb Johnson": {
-      "id": 4819231,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4819231.png"
-    },
     "Odell Beckham Jr.": {
       "id": 16733,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/16733.png"
+    },
+    "Kaleb Johnson": {
+      "id": 4819231,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4819231.png"
     },
     "Blake Grupe": {
       "id": 4259619,
@@ -3186,6 +3186,10 @@
       "id": 3116593,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3116593.png"
     },
+    "Zavier Scott": {
+      "id": 4257364,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4257364.png"
+    },
     "Ke'Shawn Williams": {
       "id": 4570738,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4570738.png"
@@ -3374,9 +3378,9 @@
       "id": 4369863,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4369863.png"
     },
-    "Zavier Scott": {
-      "id": 4257364,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4257364.png"
+    "Ben VanSumeren": {
+      "id": 4372070,
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4372070.png"
     },
     "Behren Morton": {
       "id": 4431465,
@@ -3781,10 +3785,6 @@
     "Deuce Vaughn": {
       "id": 4431453,
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4431453.png"
-    },
-    "Ben VanSumeren": {
-      "id": 4372070,
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4372070.png"
     },
     "Hassan Haskins": {
       "id": 4372071,
