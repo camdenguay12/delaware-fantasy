@@ -3,12 +3,12 @@
   "leaders": [
     {
       "position": "RB",
-      "name": "Jahmyr Gibbs",
-      "playerId": 4429795,
-      "teamId": 4,
-      "points": 44.2,
+      "name": "Christian McCaffrey",
+      "playerId": 3117251,
+      "teamId": 14,
+      "points": 46.3,
       "lineupSlot": "RB",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4429795.png"
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3117251.png"
     },
     {
       "position": "TE",
@@ -33,7 +33,7 @@
       "name": "George Pickens",
       "playerId": 4426354,
       "teamId": 15,
-      "points": 39.5,
+      "points": 43.5,
       "lineupSlot": "WR",
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4426354.png"
     },

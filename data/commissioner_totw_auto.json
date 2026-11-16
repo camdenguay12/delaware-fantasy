@@ -10,6 +10,14 @@
   {
     "week": 10,
     "slot": "RB",
+    "player": "Christian McCaffrey",
+    "points": 46.3,
+    "teamId": 14,
+    "playerId": 3117251
+  },
+  {
+    "week": 10,
+    "slot": "RB",
     "player": "Jahmyr Gibbs",
     "points": 44.2,
     "teamId": 4,
@@ -17,27 +25,19 @@
   },
   {
     "week": 10,
-    "slot": "RB",
-    "player": "Emmett Johnson",
-    "points": 35.1,
-    "teamId": 12,
-    "playerId": 4832955
-  },
-  {
-    "week": 10,
     "slot": "WR",
     "player": "George Pickens",
-    "points": 39.5,
+    "points": 43.5,
     "teamId": 15,
     "playerId": 4426354
   },
   {
     "week": 10,
     "slot": "WR",
-    "player": "Jaxon Smith-Njigba",
-    "points": 31.1,
-    "teamId": 10,
-    "playerId": 4430878
+    "player": "Ja'Marr Chase",
+    "points": 34.1,
+    "teamId": 5,
+    "playerId": 4362628
   },
   {
     "week": 10,
@@ -50,18 +50,18 @@
   {
     "week": 10,
     "slot": "FLEX",
-    "player": "Chuba Hubbard",
-    "points": 34.2,
+    "player": "Emmett Johnson",
+    "points": 35.1,
     "teamId": 12,
-    "playerId": 4241416
+    "playerId": 4832955
   },
   {
     "week": 10,
     "slot": "FLEX",
-    "player": "Christian McCaffrey",
-    "points": 30.5,
-    "teamId": 14,
-    "playerId": 3117251
+    "player": "Chuba Hubbard",
+    "points": 34.2,
+    "teamId": 12,
+    "playerId": 4241416
   },
   {
     "week": 10,
