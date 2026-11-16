@@ -1,59 +1,59 @@
 {
-  "week": 9,
+  "week": 10,
   "leaders": [
     {
       "position": "RB",
-      "name": "Kenneth Walker III",
-      "playerId": 4567048,
-      "teamId": 1,
-      "points": 36.3,
+      "name": "Jahmyr Gibbs",
+      "playerId": 4429795,
+      "teamId": 4,
+      "points": 44.2,
       "lineupSlot": "RB",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4567048.png"
-    },
-    {
-      "position": "WR",
-      "name": "Puka Nacua",
-      "playerId": 4426515,
-      "teamId": 7,
-      "points": 35.0,
-      "lineupSlot": "WR",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4426515.png"
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4429795.png"
     },
     {
       "position": "TE",
-      "name": "Darren Waller",
-      "playerId": 2576925,
-      "teamId": 2,
-      "points": 23.0,
+      "name": "Isaiah Likely",
+      "playerId": 4361050,
+      "teamId": 7,
+      "points": 27.7,
       "lineupSlot": "TE",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2576925.png"
-    },
-    {
-      "position": "QB",
-      "name": "Joe Burrow",
-      "playerId": 3915511,
-      "teamId": 11,
-      "points": 29.54,
-      "lineupSlot": "QB",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3915511.png"
-    },
-    {
-      "position": "D/ST",
-      "name": "49ers D/ST",
-      "playerId": -16025,
-      "teamId": 11,
-      "points": 19.0,
-      "lineupSlot": "D/ST",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/-16025.png"
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4361050.png"
     },
     {
       "position": "K",
       "name": "Cam Little",
       "playerId": 4686361,
       "teamId": 1,
-      "points": 17.0,
+      "points": 19.0,
       "lineupSlot": "K",
       "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4686361.png"
+    },
+    {
+      "position": "WR",
+      "name": "George Pickens",
+      "playerId": 4426354,
+      "teamId": 15,
+      "points": 39.5,
+      "lineupSlot": "WR",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4426354.png"
+    },
+    {
+      "position": "D/ST",
+      "name": "Vikings D/ST",
+      "playerId": -16016,
+      "teamId": 5,
+      "points": 21.0,
+      "lineupSlot": "D/ST",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/-16016.png"
+    },
+    {
+      "position": "QB",
+      "name": "Patrick Mahomes",
+      "playerId": 3139477,
+      "teamId": 4,
+      "points": 35.42,
+      "lineupSlot": "QB",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3139477.png"
     }
   ],
   "note": "Only ESPN starting lineup slots are eligible; FLEX players compete in their natural position."

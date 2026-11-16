@@ -1,81 +1,81 @@
 [
   {
-    "week": 9,
+    "week": 10,
     "slot": "QB",
-    "player": "Joe Burrow",
-    "points": 29.54,
-    "teamId": 11,
-    "playerId": 3915511
+    "player": "Patrick Mahomes",
+    "points": 35.42,
+    "teamId": 4,
+    "playerId": 3139477
   },
   {
-    "week": 9,
+    "week": 10,
     "slot": "RB",
-    "player": "Kenneth Walker III",
-    "points": 36.3,
-    "teamId": 1,
-    "playerId": 4567048
+    "player": "Jahmyr Gibbs",
+    "points": 44.2,
+    "teamId": 4,
+    "playerId": 4429795
   },
   {
-    "week": 9,
+    "week": 10,
     "slot": "RB",
-    "player": "Bucky Irving",
-    "points": 28.5,
-    "teamId": 6,
-    "playerId": 4596448
+    "player": "Emmett Johnson",
+    "points": 35.1,
+    "teamId": 12,
+    "playerId": 4832955
   },
   {
-    "week": 9,
+    "week": 10,
     "slot": "WR",
-    "player": "Puka Nacua",
-    "points": 35.0,
-    "teamId": 7,
-    "playerId": 4426515
+    "player": "George Pickens",
+    "points": 39.5,
+    "teamId": 15,
+    "playerId": 4426354
   },
   {
-    "week": 9,
+    "week": 10,
     "slot": "WR",
-    "player": "CeeDee Lamb",
-    "points": 33.5,
-    "teamId": 11,
-    "playerId": 4241389
-  },
-  {
-    "week": 9,
-    "slot": "TE",
-    "player": "Darren Waller",
-    "points": 23.0,
-    "teamId": 2,
-    "playerId": 2576925
-  },
-  {
-    "week": 9,
-    "slot": "FLEX",
-    "player": "Matthew Golden",
-    "points": 32.4,
+    "player": "Jaxon Smith-Njigba",
+    "points": 31.1,
     "teamId": 10,
-    "playerId": 4701936
+    "playerId": 4430878
   },
   {
-    "week": 9,
+    "week": 10,
+    "slot": "TE",
+    "player": "Isaiah Likely",
+    "points": 27.7,
+    "teamId": 7,
+    "playerId": 4361050
+  },
+  {
+    "week": 10,
     "slot": "FLEX",
-    "player": "Ja'Marr Chase",
-    "points": 31.5,
-    "teamId": 5,
-    "playerId": 4362628
+    "player": "Chuba Hubbard",
+    "points": 34.2,
+    "teamId": 12,
+    "playerId": 4241416
   },
   {
-    "week": 9,
+    "week": 10,
+    "slot": "FLEX",
+    "player": "Christian McCaffrey",
+    "points": 30.5,
+    "teamId": 14,
+    "playerId": 3117251
+  },
+  {
+    "week": 10,
     "slot": "D/ST",
-    "player": "49ers D/ST",
-    "points": 19.0,
-    "teamId": 11,
-    "playerId": -16025
+    "player": "Vikings D/ST",
+    "points": 21.0,
+    "teamId": 5,
+    "playerId": -16016
   },
   {
-    "week": 9,
+    "week": 10,
     "slot": "K",
     "player": "Cam Little",
-    "points": 17.0,
+    "points": 19.0,
     "teamId": 1,
     "playerId": 4686361
   }
