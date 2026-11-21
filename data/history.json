@@ -6958,5 +6958,53 @@
     "awayId": 4,
     "homeProjected": 90.8,
     "awayProjected": 147.09
+  },
+  {
+    "week": 11,
+    "at": "2026-11-21T00:49:11.973288+00:00",
+    "homeId": 6,
+    "awayId": 7,
+    "homeProjected": 122.85,
+    "awayProjected": 107.43
+  },
+  {
+    "week": 11,
+    "at": "2026-11-21T00:49:11.973288+00:00",
+    "homeId": 15,
+    "awayId": 2,
+    "homeProjected": 140.76,
+    "awayProjected": 134.23
+  },
+  {
+    "week": 11,
+    "at": "2026-11-21T00:49:11.973288+00:00",
+    "homeId": 14,
+    "awayId": 12,
+    "homeProjected": 116.82,
+    "awayProjected": 106.79
+  },
+  {
+    "week": 11,
+    "at": "2026-11-21T00:49:11.973288+00:00",
+    "homeId": 13,
+    "awayId": 11,
+    "homeProjected": 112.72,
+    "awayProjected": 116.27
+  },
+  {
+    "week": 11,
+    "at": "2026-11-21T00:49:11.973288+00:00",
+    "homeId": 5,
+    "awayId": 1,
+    "homeProjected": 126.05,
+    "awayProjected": 109.06
+  },
+  {
+    "week": 11,
+    "at": "2026-11-21T00:49:11.973288+00:00",
+    "homeId": 10,
+    "awayId": 4,
+    "homeProjected": 90.81,
+    "awayProjected": 147.09
   }
 ]
