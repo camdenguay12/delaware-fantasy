@@ -1,59 +1,59 @@
 {
-  "week": 10,
+  "week": 11,
   "leaders": [
     {
+      "position": "WR",
+      "name": "CeeDee Lamb",
+      "playerId": 4241389,
+      "teamId": 11,
+      "points": 30.2,
+      "lineupSlot": "WR",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4241389.png"
+    },
+    {
       "position": "RB",
-      "name": "Christian McCaffrey",
-      "playerId": 3117251,
-      "teamId": 14,
-      "points": 46.3,
-      "lineupSlot": "RB",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3117251.png"
+      "name": "Jonah Coleman",
+      "playerId": 4702555,
+      "teamId": 4,
+      "points": 34.9,
+      "lineupSlot": "FLEX",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4702555.png"
     },
     {
       "position": "TE",
-      "name": "Isaiah Likely",
-      "playerId": 4361050,
-      "teamId": 7,
-      "points": 27.7,
+      "name": "Travis Kelce",
+      "playerId": 15847,
+      "teamId": 12,
+      "points": 25.4,
       "lineupSlot": "TE",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4361050.png"
-    },
-    {
-      "position": "K",
-      "name": "Cam Little",
-      "playerId": 4686361,
-      "teamId": 1,
-      "points": 19.0,
-      "lineupSlot": "K",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4686361.png"
-    },
-    {
-      "position": "WR",
-      "name": "George Pickens",
-      "playerId": 4426354,
-      "teamId": 15,
-      "points": 43.5,
-      "lineupSlot": "WR",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4426354.png"
-    },
-    {
-      "position": "D/ST",
-      "name": "Vikings D/ST",
-      "playerId": -16016,
-      "teamId": 5,
-      "points": 21.0,
-      "lineupSlot": "D/ST",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/-16016.png"
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/15847.png"
     },
     {
       "position": "QB",
-      "name": "Patrick Mahomes",
-      "playerId": 3139477,
-      "teamId": 4,
-      "points": 35.42,
+      "name": "Dak Prescott",
+      "playerId": 2577417,
+      "teamId": 5,
+      "points": 35.9,
       "lineupSlot": "QB",
-      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3139477.png"
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/2577417.png"
+    },
+    {
+      "position": "K",
+      "name": "Tyler Bass",
+      "playerId": 3917232,
+      "teamId": 5,
+      "points": 17.0,
+      "lineupSlot": "K",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3917232.png"
+    },
+    {
+      "position": "D/ST",
+      "name": "Texans D/ST",
+      "playerId": -16034,
+      "teamId": 15,
+      "points": 15.0,
+      "lineupSlot": "D/ST",
+      "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/-16034.png"
     }
   ],
   "note": "Only ESPN starting lineup slots are eligible; FLEX players compete in their natural position."

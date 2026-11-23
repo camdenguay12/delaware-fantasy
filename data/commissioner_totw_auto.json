@@ -1,82 +1,82 @@
 [
   {
-    "week": 10,
+    "week": 11,
     "slot": "QB",
-    "player": "Patrick Mahomes",
-    "points": 35.42,
-    "teamId": 4,
-    "playerId": 3139477
+    "player": "Dak Prescott",
+    "points": 35.9,
+    "teamId": 5,
+    "playerId": 2577417
   },
   {
-    "week": 10,
+    "week": 11,
     "slot": "RB",
-    "player": "Christian McCaffrey",
-    "points": 46.3,
-    "teamId": 14,
-    "playerId": 3117251
-  },
-  {
-    "week": 10,
-    "slot": "RB",
-    "player": "Jahmyr Gibbs",
-    "points": 44.2,
+    "player": "Jonah Coleman",
+    "points": 34.9,
     "teamId": 4,
-    "playerId": 4429795
+    "playerId": 4702555
   },
   {
-    "week": 10,
+    "week": 11,
+    "slot": "RB",
+    "player": "Ashton Jeanty",
+    "points": 27.9,
+    "teamId": 6,
+    "playerId": 4890973
+  },
+  {
+    "week": 11,
+    "slot": "WR",
+    "player": "CeeDee Lamb",
+    "points": 30.2,
+    "teamId": 11,
+    "playerId": 4241389
+  },
+  {
+    "week": 11,
     "slot": "WR",
     "player": "George Pickens",
-    "points": 43.5,
+    "points": 23.8,
     "teamId": 15,
     "playerId": 4426354
   },
   {
-    "week": 10,
-    "slot": "WR",
-    "player": "Ja'Marr Chase",
-    "points": 34.1,
-    "teamId": 5,
-    "playerId": 4362628
-  },
-  {
-    "week": 10,
+    "week": 11,
     "slot": "TE",
-    "player": "Isaiah Likely",
-    "points": 27.7,
-    "teamId": 7,
-    "playerId": 4361050
-  },
-  {
-    "week": 10,
-    "slot": "FLEX",
-    "player": "Emmett Johnson",
-    "points": 35.1,
+    "player": "Travis Kelce",
+    "points": 25.4,
     "teamId": 12,
-    "playerId": 4832955
+    "playerId": 15847
   },
   {
-    "week": 10,
+    "week": 11,
+    "slot": "FLEX",
+    "player": "Jahmyr Gibbs",
+    "points": 27.8,
+    "teamId": 4,
+    "playerId": 4429795
+  },
+  {
+    "week": 11,
     "slot": "FLEX",
     "player": "Chuba Hubbard",
-    "points": 34.2,
-    "teamId": 12,
+    "points": 26.0,
+    "teamId": 7,
     "playerId": 4241416
   },
   {
-    "week": 10,
+    "week": 11,
     "slot": "D/ST",
-    "player": "Vikings D/ST",
-    "points": 21.0,
-    "teamId": 5,
-    "playerId": -16016
+    "player": "Texans D/ST",
+    "points": 15.0,
+    "teamId": 15,
+    "playerId": -16034
   },
   {
-    "week": 10,
+    "week": 11,
     "slot": "K",
-    "player": "Cam Little",
-    "points": 19.0,
-    "teamId": 1,
-    "playerId": 4686361
+    "player": "Tyler Bass",
+    "points": 17.0,
+    "teamId": 5,
+    "playerId": 3917232
   }
 ]
