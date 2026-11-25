@@ -1607,6 +1607,10 @@
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4900789.png",
     "id": "4900789"
   },
+  "cameronsample": {
+    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4243923.png",
+    "id": "4243923"
+  },
   "cameronthomas": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4361510.png",
     "id": "4361510"
@@ -9106,6 +9110,10 @@
   "patrickmekari": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/3863820.png",
     "id": "3863820"
+  },
+  "patrickmurtagh": {
+    "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/5209791.png",
+    "id": "5209791"
   },
   "patrickoconnell": {
     "headshot": "https://a.espncdn.com/i/headshots/nfl/players/full/4364623.png",
